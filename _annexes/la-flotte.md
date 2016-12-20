@@ -16,7 +16,8 @@ Mes avions.
 
 Envergure&nbsp;: {{ plane.wingspan }}&nbsp;cm,
 longueur&nbsp;: {{ plane.length }}&nbsp;cm,
-poids en vol&nbsp;: {{ plane.weight }}&nbsp;g
+poids en vol&nbsp;: {{ plane.weight }}&nbsp;g,
+poussée&nbsp;: {{ plane.thrust }}&nbsp;g{% if plane.current %} (pour {{ plane.current }}&nbsp;A i.e. {{ plane.power }}&nbsp;W){% endif %}
 
 Batteries&nbsp;: {{ plane.battery }}
 
@@ -26,7 +27,7 @@ Contrôleur&nbsp;: {{ plane.esc }}
 
 Moteur&nbsp;: {{ plane.motor }}
 
-Hélice&nbsp;: {{ plane.propeller }}, générant {{ plane.thrust }}&nbsp;g de poussée{% if plane.current %} pour {{ plane.current }}&nbsp;A ({{ plane.power }}&nbsp;W) consommés{% endif %}
+Hélice&nbsp;: {{ plane.propeller }}
 
 Servos&nbsp;:
 {% for servo in plane.servos %}
