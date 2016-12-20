@@ -1,7 +1,7 @@
 ---
 display_order: 40
 name: UMX Carbon Cub SS
-origin: "Un [produit] (http://www.e-fliterc.com/Products/Default.aspx?ProdID=EFLU1180) E-Flite"
+origin: "Un [produit](http://www.e-fliterc.com/Products/Default.aspx?ProdID=EFLU1180) E-Flite"
 wingspan: 61
 length: 40
 weight: 90
