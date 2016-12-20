@@ -1,17 +1,27 @@
+gems:
+  - jekyll-sitemap
+  - jekyll-relative-links
+
 markdown: kramdown
+
+permalink: pretty
+
+kramdown:
+  parse_block_html: true
 
 defaults:
   - scope:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /:year/:month/:day/:title
 
-tabs:
-  - title: "Principles"
-    url: "/principles"
-  - title: "Tools"
-    url: "/tools"
-  - title: "User guide"
-    url: "/userguide"
-  - title: "Pricing"
-    url: "/pricing"
+collections:
+  annexes:
+    output: true
+    permalink: /:path/
+  fleat:

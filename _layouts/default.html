@@ -1,31 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
-    <title>Et ça vole ?!</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Et ça vole&nbsp;?!</title>
 
     <meta name="google-site-verification" content="iGR6i8ACfxVaQt2vaSIk6sVsEXdTw-tPeAo4woCwpzo" />
-
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta charset="utf-8">
 
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-
-    <!-- Bootstrap -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
   </head>
   <body>
-
     <div class="container">
-      <div class="row"><div class="col-md-12">
-        <div id="content">
-          {{ content }}
-        </div>
+      <div class="jumbotron">
+        <h1><a href="/">Et ça vole&nbsp;?!</a></h1>
+        <p>Site technique sur ce qui vole plus ou moins tout seul. Ou pas.</p>
+      </div>
 
-        <p class="text-center">&copy; <a href="http://vincent-jacques.net/">Vincent Jacques</a> 2016</p>
-      </div></div>
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+
+      <p class="text-center">&copy; <a href="http://vincent-jacques.net/">Vincent Jacques</a> 2016
+      -
+      <span class="hidden-sm-up">xs</span>
+      <span class="hidden-md-up hidden-xs-down">sm</span>
+      <span class="hidden-lg-up hidden-sm-down">md</span>
+      <span class="hidden-xl-up hidden-md-down">lg</span>
+      <span class="hidden-lg-down">xl</span></p>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
   </body>
 </html>
