@@ -7,8 +7,6 @@ length: 40
 weight: 90
 thrust: 50
 battery: "[2S, 180&nbsp;mAh](http://www.e-fliterc.com/Products/Default.aspx?ProdID=EFLB1802S20)"
-current:
-power:
 receiver: d'origine
 esc: d'origine
 motor: d'origine

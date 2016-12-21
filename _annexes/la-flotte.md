@@ -4,8 +4,8 @@ title: La flotte
 Mes avions.
 
 <div class="row">
-{% assign planes = site.fleat | sort: 'display_order' %}
-{% for plane in planes %}
+{% assign planes = site.fleat | where_exp: "plane", "plane.display_order" | sort: 'display_order' %}
+{% for plane in planes  %}
 <div class="col-lg-4 col-md-6">
 
 ## {{ plane.name }}
