@@ -98,7 +98,7 @@ Monomoteurs:
 - [FT Sportster](http://flitetest.com/articles/ft-sportster-build) (Simple, aile basse, 99cm)
 - [FT Mustang](http://flitetest.com/articles/ft-mustang-build) (Historique, 102cm)
 - [FT Racer](http://flitetest.com/articles/ft-racer-build) ("Planes" (méchant), vitesse, 102cm)
-- [FT Spear](http://flitetest.com/articles/ft-spear-build) (Aile, 104cm)
+- [FT Spear](http://flitetest.com/articles/ft-spear-build) (Aile, 104cm) ([Plan A3 en PDF](flitetest-spear.pdf) (et en [SVG multi-pages](flitetest-spear.svg)))
 - [FT Spitfire](http://flitetest.com/articles/ft-spitfire-build) (Historique, 108cm)
 - [FT Simple Storch](http://flitetest.com/articles/ft-simple-storch-build) (Historique, 146cm)
 
