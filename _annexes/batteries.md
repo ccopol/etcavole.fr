@@ -1,5 +1,6 @@
 ---
 title: Mes batteries
+hidden: true
 ---
 {% for battery in site.data.batteries %}
 ## {{ battery[0] }}

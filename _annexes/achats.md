@@ -1,3 +1,8 @@
+---
+title: Achats
+hidden: true
+---
+
 ballons-fleche nerf ?
 
 assortiment de joints toriques (carrément trop cher)

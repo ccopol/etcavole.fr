@@ -33,9 +33,6 @@ collections:
   annexes:
     output: true
     permalink: /:path/
-  privexes:
-    output: true
-    permalink: /:path/
   fleat:
 
 exclude:
