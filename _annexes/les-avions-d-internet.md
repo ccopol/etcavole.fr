@@ -1,6 +1,5 @@
 ---
 title: Les avions d'internet
-category: Avions radiocommandés
 ---
 Un inventaire des avions qui m'ont interpelé.
 

@@ -1,7 +1,7 @@
 ---
 title: La flotte
 ---
-Mes avions.
+Mes modèles.
 
 <div class="row">
 {% assign planes = site.fleat | where_exp: "plane", "plane.display_order" | sort: 'display_order' %}
