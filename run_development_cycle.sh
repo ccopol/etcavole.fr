@@ -10,7 +10,9 @@ echo
 echo "Duplicated URLs"
 echo "---------------"
 grep "http.\?://" $(git ls-files | grep -v -e ".*\.png$" -e ".*\.jpg$" -e ".*\.svg$" -e ".*\.pdf$" -e "^run_development_cycle.sh$" -e "^README.md$" -e "^_privexes.*$") \
-| sed "s/^.*\(http[^ )\"]*\).*$/\1/g" \
+| sed $'s/http/\\\nhttp/g' \
+| grep http \
+| sed "s/^\(http[^ )\"]*\).*$/\1/g" \
 | sort | uniq -c | sort -n \
 | grep -v "^   1 "
 

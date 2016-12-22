@@ -6,7 +6,7 @@ Un inventaire des avions qui m'ont interpelé.
 Flite Test
 ----------
 
-[Flite Test](http://flitetest.com) fournit des plans gratuits et distribue des [kits](http://store.flitetest.com/airplanes/).
+[Flite Test](http://flitetest.com) fournit des [plans gratuits][plans gratuits Flite Test] et distribue des [kits](http://store.flitetest.com/airplanes/).
 Voici leurs avions, approximativement classés par taille.
 
 Pour certains modèles, j'ai [retravaillé les plans originaux]({% post_url 2016-12-22-preparer-les-plans-flitetest-pour-impression %}) pour être imprimés en A3.

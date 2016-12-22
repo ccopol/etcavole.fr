@@ -2,7 +2,7 @@
 title: Préparer les plans Flite Test pour impression
 ---
 
-Les [plans fournis par Flite Test](http://flitetest.com/free-build-plans/) sont dans des formats de papier américains.
+Les [plans gratuits Flite Test] sont dans des formats de papier américains.
 Voici comment je retravaille ces plans pour les imprimer en A3.
 Vous trouverez [les plans que j'ai retravaillés](/les-avions-d-internet/) ici.
 
@@ -67,3 +67,5 @@ Exporter en PDF
 
 Imprimer
 : Dans Acrobat Reader, je fais bien attention à imprimer *sans aucune mise à l'échelle*, sur du papier A3.
+
+{% include links_by_title.md %}
