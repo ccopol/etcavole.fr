@@ -12,7 +12,6 @@ Le blog
 =======
 
 <!-- @todo Flux RSS -->
-<!-- @todo Add clearfixes to reset floats? -->
 <!-- @todo Why does "[]:" appear in the excerpts? -->
 
 <dl class="row">
@@ -27,8 +26,6 @@ Le blog
 
 Les annexes
 ===========
-
-<!-- @todo Add clearfix to reset floats? -->
 
 <dl class="row">
 {% for annexe in site.annexes %}

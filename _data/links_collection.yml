@@ -99,6 +99,11 @@ categories:
       - title: AirCommandRockets
         url: https://www.youtube.com/channel/UCqOcPn8fVKqyxz9K0H6LQpg
         description: Fusées à eau.
+  - name: Théorie
+    links:
+      - title: Model Airplane Propellers
+        url: http://dc-rc.org/pdf/Model%20Propellers%20Article.pdf
+        description: Article sur la physique des hélices, par W. B. Garner
   - name: Marques et fabriquants
     links:
       - title: Horizon Hobby
@@ -107,6 +112,9 @@ categories:
       - title: Opale Paramodels
         url: http://www.opale-paramodels.com/
         description: De magnifiques parapentes et paramoteurs. Entreprise de la Côte d'Opale.
+      - title: Master Airscrew
+        url: https://www.masterairscrew.com/
+        description: La marque d'hélices recommandée par Experimental Airlines. Expédition internationale gratuite au dessus de $&nbsp;50 de commande.
   - name: Boutiques
     categories:
       - name: Modélisme
