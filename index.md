@@ -34,6 +34,4 @@ Les annexes
 {% endfor %}
 </dl>
 
-{% for link in site.data.links %}
-[{{ link.title }}]: {{ link.url }}
-{% endfor %}
+{% include links_by_title.md %}

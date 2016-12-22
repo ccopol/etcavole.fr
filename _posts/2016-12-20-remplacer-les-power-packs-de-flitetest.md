@@ -1,7 +1,7 @@
 ---
 title: Remplacer les Power Packs de Flite Test
 ---
-[Flite Test][Flite Test] distribue des *[Power Packs](http://store.flitetest.com/complete-power-pack-kits/)* contenant une hélice, un moteur, et un contrôleur cohérents, adaptés à certaines tailles d'avion.
+[Flite Test] distribue des *[Power Packs](http://store.flitetest.com/complete-power-pack-kits/)* contenant une hélice, un moteur, et un contrôleur cohérents, adaptés à certaines tailles d'avion.
 Comme ces *Power Packs* ne sont pas (encore ?) distribués en Europe dans le cadre de leur partenariat avec [Graupner](https://www.graupner.com/Models/Flite-Test/), voici une analyse de leur contenu et des alternatives distribuées par [Hobby King].
 
 Power pack A
@@ -67,6 +67,4 @@ contrôleur 12 A
 hélice 6x4.5
 : ce moteur est en fait adapté aux hélices des tailles suivantes: [5x3], [5x4], [5x4.5], [5x5], [6x3], [6x4] et [6x4.5].
 
-{% for link in site.data.links %}
-[{{ link.title }}]: {{ link.url }}
-{% endfor %}
+{% include links_by_title.md %}
