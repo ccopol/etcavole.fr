@@ -33,7 +33,7 @@ ESC 20 A
 : remplaçable par le [Turnigy Plush 25&nbsp;A] avec des [bullet 3.5&nbsp;mm] femelles et un [XT60] mâle.
 
 hélice 8x4.5
-: [8x4.5](https://hobbyking.com/en_us/hobbyking-8482-propeller-8x4-5-black-cw-ccw-2pcs.html)
+: [8x4.5](https://hobbyking.com/en_us/propeller.html?diameter_x=8-8&pitch_y=4.5-4.5)
 
 Power pack C
 ------------
@@ -49,7 +49,7 @@ ESC 30 A
 : remplaçable par le [Turnigy Plush 30&nbsp;A] avec des [bullet 3.5&nbsp;mm] femelles et un [XT60] mâle.
 
 hélice 10x4.7
-: [10x4.7](https://hobbyking.com/en_us/gws-ep-propeller-rd-1047-254x119mm-black-6pcs-set.html)
+: [10x4.7](https://hobbyking.com/en_us/propeller.html?diameter_x=10-10&pitch_y=4.7-4.7)
 
 Power pack F
 ------------
