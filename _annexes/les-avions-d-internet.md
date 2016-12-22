@@ -64,7 +64,7 @@ Monomoteurs:
 - [FT Old Speedster](http://flitetest.com/articles/ft-old-speedster-build) (Simple, 96cm)
 - [FT Sea Otter](http://flitetest.com/articles/ft-sea-otter-build) (Hydravion, 102cm)
 - [FT Simple Soarer](http://flitetest.com/articles/ft-simple-soarer-build) (Pente, 146cm)
-- [FT Fowl Flyer](http://flitetest.com/articles/Fowl_Flyer_Swappable_Scratch_Build) (Aile haute, pusher, ??cm, motorisé par [NTM 28-26A](https://hobbyking.com/en_us/ntm-prop-drive-series-28-26a-1200kv-286w-short-shaft-version.html))
+- [FT Fowl Flyer](http://flitetest.com/articles/Fowl_Flyer_Swappable_Scratch_Build) (Aile haute, pusher, ??cm)
 
 Bimoteurs:
 

@@ -28,3 +28,7 @@ collections:
     output: true
     permalink: /:path/
   fleat:
+
+exclude:
+  - README.md
+  - run_development_cycle.sh

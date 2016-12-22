@@ -1,3 +1,23 @@
 #!/bin/bash
 
+set -o errexit
+
+clear
+
+jekyll build
+
+echo "Duplicated URLs"
+echo "---------------"
+grep "http.\?://" $(git ls-files | grep -v -e ".*\.png$" -e ".*\.jpg$" -e ".*\.svg$" -e ".*\.pdf$" -e "^run_development_cycle.sh$" -e "^README.md$" -e "^_privexes.*$") \
+| sed "s/^.*\(http[^ )\"]*\).*$/\1/g" \
+| sort | uniq -c | sort -n \
+| grep -v "^   1 "
+echo
+
+echo "Unresolved links"
+echo "----------------"
+grep -e "\[" -e "\]" -R _site \
+| grep -v "^Binary file _site/.* matches$"
+echo
+
 jekyll serve --watch --host=0.0.0.0

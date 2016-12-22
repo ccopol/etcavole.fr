@@ -11,7 +11,7 @@ Le [power pack A](http://store.flitetest.com/power-pack-a-minis/) convient pour 
 Il contient:
 
 moteur [EMax MT1806 (KV=2280) CCW](http://store.flitetest.com/emax-motor-mt1806/)
-: remplaçable par [QAV1806 (KV=2300) CCW](https://hobbyking.com/en_us/qav1806-2300kv-ccw.html) (ou [CW](https://hobbyking.com/en_us/qav1806-2300kv-cw.html)) avec des [bullet 2&nbsp;mm] mâles.
+: remplaçable par [QAV1806 (KV=2300) CCW] (ou [CW][QAV1806 (KV=2300) CW]) avec des [bullet 2&nbsp;mm] mâles.
 
 contrôleur 12 A
 : remplaçable par le [Turnigy Plush 12&nbsp;A] avec des [bullet 2&nbsp;mm] femelles et un [XT30] (ou [JST]) mâle.
@@ -27,7 +27,7 @@ Le [power pack B](http://store.flitetest.com/power-pack-b-fixed-wing-small/) con
 Il contient:
 
 moteur [EMax CF2822 (KV=1200)](http://store.flitetest.com/emax-cf2822-1200kv-motor-with-collet/)
-: peut-être remplaçable par [NTM Prop Drive Series 28-26A (KV=1200)](https://hobbyking.com/en_us/ntm-prop-drive-series-28-26a-1200kv-286w-short-shaft-version.html).
+: remplaçable par [NTM Prop Drive Series 28-26A (KV=1200)](https://hobbyking.com/en_us/ntm-prop-drive-series-28-26a-1200kv-286w-short-shaft-version.html).
 
 ESC 20 A
 : remplaçable par le [Turnigy Plush 25&nbsp;A] avec des [bullet 3.5&nbsp;mm] femelles et un [XT60] mâle.
@@ -43,7 +43,7 @@ Le [power pack C](http://store.flitetest.com/power-pack-c-fixed-wing-large/) con
 Il contient:
 
 moteur [EMax GT2215 (KV=1100)](http://store.flitetest.com/emax-gt2215-1100kv-motor/)
-: très probablement remplaçable par [A28M (KV=1100)](https://hobbyking.com/en_us/a28m-brushless-outrunner-1100kv.html) avec des [bullet 3.5&nbsp;mm] mâles (préférablement [NTM Prop Drive Series 28-30 (KV=1100)](https://hobbyking.com/en_us/ntm-prop-drive-series-28-30-1100kv-motor.html) s'il était disponible en Europe).
+: remplaçable par [A28M (KV=1100)](https://hobbyking.com/en_us/a28m-brushless-outrunner-1100kv.html) avec des [bullet 3.5&nbsp;mm] mâles (préférablement [NTM Prop Drive Series 28-30 (KV=1100)](https://hobbyking.com/en_us/ntm-prop-drive-series-28-30-1100kv-motor.html) s'il était disponible en Europe).
 
 ESC 30 A
 : remplaçable par le [Turnigy Plush 30&nbsp;A] avec des [bullet 3.5&nbsp;mm] femelles et un [XT60] mâle.

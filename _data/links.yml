@@ -213,18 +213,22 @@ categories:
       - name: Générales
         links:
           - title: Amazon
-            url: http://amazon.fr
+            url: http://amazon.fr/
             description: Très fiable, surtout si on choisis des produits *expédiés par Amazon*.
           - title: E-Bay
-            url: http://ebay.fr
+            url: http://ebay.fr/
             description: La fiabilité et les délais dépendent du vendeur.
 links:
   - title: 6 voies compatible DSM2
     url: http://www.guixmodel.fr/modelisme/accessoires/radiocommande/recepteur/recepteur-6-voies-3-4g-compatible-dsm2-spektrum-detail
+
+  - title: 1S, 150&nbsp;mAh
+    url: http://www.e-fliterc.com/Products/Default.aspx?ProdID=EFLB1501S
   - title: "2S, 850&nbsp;mAh"
     url: http://www.guixmodel.fr/modelisme/accessoires/accus/lipo-2s/accu-lipo-850mah-2s-kypom-35c-detail
   - title: "3S, 2,2&nbsp;Ah"
     url: https://hobbyking.com/en_us/turnigy-nano-tech-2200mah-3s-25-50c-lipo-pack.html
+
   - title: Turnigy Plush 6&nbsp;A
     url: https://hobbyking.com/en_us/turnigy-plush-6a-8bec-6g-speed-controller.html
   - title: Turnigy Plush 10&nbsp;A
@@ -243,6 +247,7 @@ links:
     url: https://hobbyking.com/en_us/turnigy-plush-60amp-speed-controller.html
   - title: Turnigy Plush 100&nbsp;A
     url: https://hobbyking.com/en_us/turnigy-plush-100a-w-ubec-speed-controller.html
+
   - title: JST
     url: https://hobbyking.com/en_us/jst-female-2-pin-connector-set-10pcs-set.html
   - title: XT30
@@ -255,6 +260,7 @@ links:
     url: https://hobbyking.com/en_us/2mm-gold-connectors-10-pairs-20pc-1.html
   - title: bullet 3.5&nbsp;mm
     url: https://hobbyking.com/en_us/polymax-3-5mm-gold-connectors-10-pairs-20pc.html
+
   - title: 5x3
     url: https://hobbyking.com/en_us/gemfan-propeller-5x3-black-cw-ccw-2pcs.html
   - title: 5x4
@@ -277,3 +283,10 @@ links:
     url: https://hobbyking.com/en_us/master-airscrew-propeller-9x5-1pc-1.html
   - title: 11x7
     url: https://hobbyking.com/en_us/apc-style-propeller-11x7-grey-ccw-2pcs.html
+  - title: 9&nbsp;g
+    url: https://hobbyking.com/en_us/turnigytm-tgy-50090m-analog-servo-mg-1-6kg-0-08sec-9g.html
+
+  - title: QAV1806 (KV=2300) CCW
+    url: https://hobbyking.com/en_us/qav1806-2300kv-ccw.html
+  - title: QAV1806 (KV=2300) CW
+    url: https://hobbyking.com/en_us/qav1806-2300kv-cw.html

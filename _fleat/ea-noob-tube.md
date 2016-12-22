@@ -15,10 +15,10 @@ motor: "[Turnigy D2826/6 (KV=2200)](https://hobbyking.com/en_us/d2826-6-2200kv-o
 propeller: "[6x4.5]"
 servos:
   - role: profondeur
-    model: "[9&nbsp;g](http://www.hobbyking.com/hobbyking/store/%5F%5F45442%5F%5FTurnigy%5F8482%5FTGY%5F50090M%5FAnalog%5FServo%5FMG%5F1%5F6kg%5F0%5F08sec%5F9g%5FEU%5FWarehouse%5F.html)"
+    model: "[9&nbsp;g]"
   - role: dérive
-    model: "[9&nbsp;g](http://www.hobbyking.com/hobbyking/store/%5F%5F45442%5F%5FTurnigy%5F8482%5FTGY%5F50090M%5FAnalog%5FServo%5FMG%5F1%5F6kg%5F0%5F08sec%5F9g%5FEU%5FWarehouse%5F.html)"
+    model: "[9&nbsp;g]"
   - role: ailerons
     count: 2
-    model: "[9&nbsp;g](http://www.hobbyking.com/hobbyking/store/%5F%5F45442%5F%5FTurnigy%5F8482%5FTGY%5F50090M%5FAnalog%5FServo%5FMG%5F1%5F6kg%5F0%5F08sec%5F9g%5FEU%5FWarehouse%5F.html)"
+    model: "[9&nbsp;g]"
 ---

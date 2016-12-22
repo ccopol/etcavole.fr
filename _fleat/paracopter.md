@@ -6,9 +6,9 @@ length: "@todo"
 weight: "@todo"
 thrust: "@todo"
 battery: "[2S, 850&nbsp;mAh]"
-receiver: "4 voies OrangeRx, très similaire à ce [4 voies compatible DSM2](http://www.guixmodel.fr/modelisme/accessoires/radiocommande/recepteur/r%C3%A9cepteur-4-voies-compatible-dsm2-detail)"
-esc: "[10&nbsp;A](http://www.guixmodel.fr/modelisme/accessoires/moteurs-et-controleurs/controleur/controleurs-ipeak-10a-detail)"
-motor: "[iBM 2204-14 (KV=1600)](http://www.guixmodel.fr/modelisme/accessoires/moteurs-et-controleurs/moteurs-brushless/moteur-brushless-ibm2204-detail)"
+receiver: "4 voies OrangeRx"
+esc: "10&nbsp;A (du Ministar)"
+motor: "iBM 2204-14 (KV=1600) (du Ministar)"
 propeller: d'origine
 servos:
   - role: aile

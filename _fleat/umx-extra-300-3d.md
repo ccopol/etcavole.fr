@@ -5,7 +5,7 @@ wingspan: "@todo"
 length: "@todo"
 weight: "@todo"
 thrust: "@todo"
-battery: "[1S, 150&nbsp;mAh](http://www.e-fliterc.com/Products/Default.aspx?ProdID=EFLB1501S)"
+battery: "[1S, 150&nbsp;mAh]"
 receiver: d'origine
 esc: d'origine
 motor: d'origine
