@@ -180,6 +180,7 @@ categories:
         links:
           - title: Leroy Merlin
             url: http://www.leroy-merlin.fr/
+            description: Boutiques physiques un peu partout en France.
           - title: La boutique du composite
             url: http://laboutiqueducomposite.com/
             description: Jamais commandé.
@@ -208,6 +209,7 @@ categories:
             description: Boutique physique à Paris. Fiable.
           - title: Conrad
             url: http://www.conrad.fr/
+            description: Jamais commandé.
       - name: Générales
         links:
           - title: Amazon
@@ -216,3 +218,62 @@ categories:
           - title: E-Bay
             url: http://ebay.fr
             description: La fiabilité et les délais dépendent du vendeur.
+links:
+  - title: 6 voies compatible DSM2
+    url: http://www.guixmodel.fr/modelisme/accessoires/radiocommande/recepteur/recepteur-6-voies-3-4g-compatible-dsm2-spektrum-detail
+  - title: "2S, 850&nbsp;mAh"
+    url: http://www.guixmodel.fr/modelisme/accessoires/accus/lipo-2s/accu-lipo-850mah-2s-kypom-35c-detail
+  - title: "3S, 2,2&nbsp;Ah"
+    url: https://hobbyking.com/en_us/turnigy-nano-tech-2200mah-3s-25-50c-lipo-pack.html
+  - title: Turnigy Plush 6&nbsp;A
+    url: https://hobbyking.com/en_us/turnigy-plush-6a-8bec-6g-speed-controller.html
+  - title: Turnigy Plush 10&nbsp;A
+    url: https://hobbyking.com/en_us/turnigy-plush-10amp-9gram-speed-controller.html
+  - title: Turnigy Plush 12&nbsp;A
+    url: https://hobbyking.com/en_us/turnigy-plush-12amp-2a-bec-besc.html
+  - title: Turnigy Plush 18&nbsp;A
+    url: https://hobbyking.com/en_us/turnigy-plush-18amp-speed-controller.html
+  - title: Turnigy Plush 25&nbsp;A
+    url: https://hobbyking.com/en_us/turnigy-plush-25amp-speed-controller.html
+  - title: Turnigy Plush 30&nbsp;A
+    url: https://hobbyking.com/en_us/turnigy-plush-30amp-speed-controller.html
+  - title: Turnigy Plush 40&nbsp;A
+    url: https://hobbyking.com/en_us/turnigy-plush-40amp-speed-controller-w-5a-bec.html
+  - title: Turnigy Plush 60&nbsp;A
+    url: https://hobbyking.com/en_us/turnigy-plush-60amp-speed-controller.html
+  - title: Turnigy Plush 100&nbsp;A
+    url: https://hobbyking.com/en_us/turnigy-plush-100a-w-ubec-speed-controller.html
+  - title: JST
+    url: https://hobbyking.com/en_us/jst-female-2-pin-connector-set-10pcs-set.html
+  - title: XT30
+    url: https://hobbyking.com/en_us/xt30-power-connectors-for-30a-continuous-applications-esc-side-5pcs.html
+  - title: XT60
+    url: https://hobbyking.com/en_us/nylon-xt60-connectors-male-female-5-pairs-genuine.html
+  - title: XT90
+    url: https://hobbyking.com/en_us/nylon-xt90-connectors-male-female-5-pairs.html
+  - title: bullet 2&nbsp;mm
+    url: https://hobbyking.com/en_us/2mm-gold-connectors-10-pairs-20pc-1.html
+  - title: bullet 3.5&nbsp;mm
+    url: https://hobbyking.com/en_us/polymax-3-5mm-gold-connectors-10-pairs-20pc.html
+  - title: 5x3
+    url: https://hobbyking.com/en_us/gemfan-propeller-5x3-black-cw-ccw-2pcs.html
+  - title: 5x4
+    url: https://hobbyking.com/en_us/gemfan-propeller-5x4-black-cw-ccw-2pcs.html
+  - title: 5x4.5
+    url: https://hobbyking.com/en_us/gemfan-propeller-5x4-5-black-cw-ccw-2pcs-1.html
+  - title: 5x5
+    url: https://hobbyking.com/en_us/tgs-precision-folding-propeller-5x5-black-1pc.html
+  - title: 6x3
+    url: https://hobbyking.com/en_us/gemfan-6030-grp-nylon-propellers-cw-ccw-set-black.html
+  - title: 6x4
+    url: https://hobbyking.com/en_us/apc-style-propeller-6x4-grey-ccw-2pcs.html
+  - title: 6x4.5
+    url: https://hobbyking.com/en_us/gemfan-multirotor-crp-propeller-6x4-5-black-cw-ccw-2pcs.html
+  - title: 7x4
+    url: https://hobbyking.com/en_us/tgs-precision-sport-propeller-7x4-1pc.html
+  - title: 9x5_quantity
+    url: https://hobbyking.com/en_us/hobbyking-8482-propeller-9x5-black-ccw-5pcs.html
+  - title: 9x5_quality
+    url: https://hobbyking.com/en_us/master-airscrew-propeller-9x5-1pc-1.html
+  - title: 11x7
+    url: https://hobbyking.com/en_us/apc-style-propeller-11x7-grey-ccw-2pcs.html
