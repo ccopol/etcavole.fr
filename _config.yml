@@ -10,7 +10,6 @@ gems:
   - jekyll-relative-links
   - jekyll-feed
   - jekyll-coffeescript
-  - jekyll-default-layout
 
 markdown: kramdown
 
@@ -20,6 +19,10 @@ kramdown:
   parse_block_html: true
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
   - scope:
       path: ""
       type: "posts"
