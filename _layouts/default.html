@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>{% if page.title %}{{ page.title }} - {% endif %}Et ça vole&nbsp;?!</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
     <meta name="google-site-verification" content="iGR6i8ACfxVaQt2vaSIk6sVsEXdTw-tPeAo4woCwpzo" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -11,18 +11,21 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css">
+
+    {% feed_meta %}
   </head>
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1><a href="/">Et ça vole&nbsp;?!</a></h1>
-        <p>Blog technique sur ce qui vole plus ou moins tout seul. Ou pas.</p>
+        <h1><a href="/">{{ site.title }}</a></h1>
+        <p>{{ site.description }}</p>
+        <!-- @todo Add Links to Youtube, RSS, Facebook, Twitter -->
       </div>
 
       <h1>{{ page.title }}</h1>
       {{ content }}
 
-      <p class="text-center">&copy; <a href="http://vincent-jacques.net/">Vincent Jacques</a> 2016
+      <p class="text-center">&copy; <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a> 2016
       -
       <span class="hidden-sm-up">xs</span>
       <span class="hidden-md-up hidden-xs-down">sm</span>

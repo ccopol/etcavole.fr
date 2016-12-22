@@ -1,6 +1,13 @@
+title: Et ça vole ?!
+description: Blog technique sur ce qui vole plus ou moins tout seul. Ou pas.
+author:
+  name: Vincent Jacques
+  email: vincent@vincent-jacques.net
+
 gems:
   - jekyll-sitemap
   - jekyll-relative-links
+  - jekyll-feed
 
 markdown: kramdown
 

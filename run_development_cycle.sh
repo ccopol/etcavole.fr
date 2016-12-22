@@ -14,13 +14,20 @@ grep "http.\?://" $(git ls-files | grep -v -e ".*\.png$" -e ".*\.jpg$" -e ".*\.s
 | grep http \
 | sed "s/^\(http[^ )\"]*\).*$/\1/g" \
 | sort | uniq -c | sort -n \
-| grep -v "^   1 "
+| grep -v "^   1 " \
+|| echo None
 
 echo
 echo "Unresolved links"
 echo "----------------"
 grep -e "\[" -e "\]" -R _site \
-| grep -v "^Binary file _site/.* matches$"
+| grep -v "^Binary file _site/.* matches$" \
+|| echo None
+
+echo
+echo "Todos"
+echo "-----"
+git grep "@todo"
 
 echo
 jekyll serve --watch --host=0.0.0.0

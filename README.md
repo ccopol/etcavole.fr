@@ -67,15 +67,6 @@ Mobile friendly HTML framework: [Bootstrap](http://getbootstrap.com/)
 
 Hosting: [GitHub Pages](https://pages.github.com/)
 
-Some sanity one-liners
-======================
-
-We could automate these checks. Someday. Maybe.
-
-- list todos: `git grep "@todo"`
-- list all links (manually verify that internal links are relative and point to .md files): `git grep "\[.*\](.*)"`
-
-
 Post de bienvenue et de présentation de la chaîne et du blog
 ------------------------------------------------------------
 

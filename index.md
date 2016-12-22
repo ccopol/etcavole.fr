@@ -11,8 +11,6 @@ Je mets l'accent sur les aspects techniques, pour vous permettre de reproduire c
 Le blog
 =======
 
-<!-- @todo Flux RSS -->
-
 <dl class="row">
 {% for post in site.posts %}
 <dt class="col-md-3">{{ post.date | date_to_string }}</dt>
