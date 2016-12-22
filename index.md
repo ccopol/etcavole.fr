@@ -12,14 +12,13 @@ Le blog
 =======
 
 <!-- @todo Flux RSS -->
-<!-- @todo Why does "[]:" appear in the excerpts? -->
 
 <dl class="row">
 {% for post in site.posts %}
 <dt class="col-md-3">{{ post.date | date_to_string }}</dt>
 <dd class="col-md-9">
 **[{{ post.title }}]({{ post.url }})**
-{{ post.excerpt | remove: '<p>[]:</p>' }}
+{{ post.excerpt }}
 </dd>
 {% endfor %}
 </dl>
@@ -30,7 +29,7 @@ Les annexes
 <dl class="row">
 {% for annexe in site.annexes %}
 <dt class="col-sm-3">[{{ annexe.title }}]({{ annexe.url }})</dt>
-<dd class="col-sm-9">{{ annexe.excerpt | remove: '<p>[]:</p>'}}</dd>
+<dd class="col-sm-9">{{ annexe.excerpt }}</dd>
 {% endfor %}
 </dl>
 
