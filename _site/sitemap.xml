@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://0.0.0.0:4000/2016/12/22/preparer-les-plans-flitetest-pour-impression</loc>
+<lastmod>2016-12-22T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/2016/12/20/remplacer-les-power-packs-de-flitetest</loc>
+<lastmod>2016-12-20T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/achats/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/batteries/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/la-flotte/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/les-avions-d-internet/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/liens/</loc>
+</url>
+</urlset>

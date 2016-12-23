@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://0.0.0.0:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2016-12-23T18:59:55+01:00</updated><id>http://0.0.0.0:4000//</id><title type="html">Et ça vole ?!</title><subtitle>Blog technique sur ce qui vole plus ou moins tout seul. Ou pas.</subtitle><author><name>Vincent Jacques</name><email>vincent@vincent-jacques.net</email></author><entry><title type="html">Préparer les plans Flite Test pour impression</title><link href="http://0.0.0.0:4000/2016/12/22/preparer-les-plans-flitetest-pour-impression" rel="alternate" type="text/html" title="Préparer les plans Flite Test pour impression" /><published>2016-12-22T00:00:00+01:00</published><updated>2016-12-22T00:00:00+01:00</updated><id>http://0.0.0.0:4000/2016/12/22/preparer-les-plans-flitetest-pour-impression</id><content type="html" xml:base="http://0.0.0.0:4000/2016/12/22/preparer-les-plans-flitetest-pour-impression">&lt;p&gt;Les &lt;a href=&quot;http://flitetest.com/free-build-plans/&quot;&gt;plans gratuits Flite Test&lt;/a&gt; sont dans des formats de papier américains.
+Voici comment je retravaille ces plans pour les imprimer en A3.
+Vous trouverez &lt;a href=&quot;/les-avions-d-internet/&quot;&gt;les plans que j’ai retravaillés&lt;/a&gt; ici.&lt;/p&gt;
+
+&lt;p&gt;Si vous retravaillez d’autres plans de cette manière, n’hésitez pas à me les envoyer, je les mettrai avec les miens (en faisant mention de votre nom, évidemment).&lt;/p&gt;
+
+&lt;p&gt;J’utilise &lt;a href=&quot;https://inkscape.org/fr/&quot;&gt;Inkscape&lt;/a&gt;, qui est un &lt;a href=&quot;https://fr.wikipedia.org/wiki/Logiciel_libre&quot;&gt;logiciel libre&lt;/a&gt; de &lt;a href=&quot;https://fr.wikipedia.org/wiki/Image_vectorielle&quot;&gt;dessin vectoriel&lt;/a&gt; qui fonctionne sous Windows, macOS et Linux.
+Comme le &lt;a href=&quot;https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics&quot;&gt;format de fichier &lt;abbr title=&quot;Scalable Vector Graphics&quot;&gt;SVG&lt;/abbr&gt;&lt;/a&gt; utilisé par Inkscape ne peut pas contenir plusieurs pages, j’utilise l’extension &lt;a href=&quot;https://sourceforge.net/projects/inkscape-pages/&quot;&gt;Pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Voici les étapes que je suis :&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Télécharger le plan “Full”&lt;/dt&gt;
+  &lt;dd&gt;En bas de l’article “Build” de l’avion concerné (avant les commentaires), Flite Test fournit plusieurs versions du plan.
+Voir par exemple le &lt;a href=&quot;flitetest.com/articles/ft-sea-duck-build&quot;&gt;Sea Duck&lt;/a&gt; et chercher “FT SEA DUCK PLANS”.
+“Tiled” signifie que le plan est coupé en feuilles standard à recoller.
+Je n’utilise pas ces plans pour deux raisons : le format du papier est américain, et même les petites pièces sont souvent à cheval sur deux pages.
+Le plan “Full” est sur de grandes feuilles.
+Toutes les pièces sont en un morceau.
+“All in one” contient les deux.
+Je télécharge donc le “Full”.&lt;/dd&gt;
+  &lt;dt&gt;Créer et sauver un fichier vide dans Inkscape&lt;/dt&gt;
+  &lt;dd&gt;Je crée un nouveau fichier (menu “File” -&amp;gt; “New”),
+je change son format en A3 paysage (menu “File” -&amp;gt; “Document properties…”),
+puis je l’enregistre (menu “File” -&amp;gt; “Save as…”).&lt;/dd&gt;
+  &lt;dt&gt;Importer le PDF dans Inkscape&lt;/dt&gt;
+  &lt;dd&gt;Le plan téléchargé est au format PDF.
+Il faut donc l’importer dans Inkscape.
+J’importe chaque page du plan (menu “File” -&amp;gt; “Import…”, puis choisir la page dans la boite de dialogue) une par une et je déplace les objets importés pour éviter qu’ils se chevauchent.&lt;/dd&gt;
+  &lt;dt&gt;Supprimer certains marquages&lt;/dt&gt;
+  &lt;dd&gt;Je dégroupe (menu “Object” -&amp;gt; “Ungroup”) les objets importés jusqu’à pouvoir sélectionner les traits individuellement.
+Je supprime habituellement les logos, la légende, etc.
+Mais je conserve l’échelle en centimètres pour valider la taille après impression.&lt;/dd&gt;
+  &lt;dt&gt;Supprimer d’autres marquages&lt;/dt&gt;
+  &lt;dd&gt;Je supprime également les hachures des biseaux et les points des endroits où il faut enlever la couche supérieure de papier.
+(Ces objets augmentent considérablement la taille du fichier et ne me sont pas indispensables.)
+Pour cela, je note leur couleur, par exemple “ff23aeff” (menu “Object” -&amp;gt; “Fill and Stroke…” -&amp;gt; onglet “Fill” -&amp;gt; champ “RGBA”), puis je cherche tous les objets de cette couleur en enlevant la composante A, donc “ff23ae” (menu “Edit” -&amp;gt; “Find/Replace…”, champ “Find”, bouton “Find”).&lt;/dd&gt;
+  &lt;dt&gt;Regrouper et dédupliquer les pièces&lt;/dt&gt;
+  &lt;dd&gt;Je regroupe ensuite chaque pièce (sélectionner la pièce, puis menu “Object” -&amp;gt; “Group”).
+Je supprime aussi les doublons : certaines pièces sont présentes plusieurs fois sur les plans.
+Comme c’est écrit dessus, il n’y a pas besoin de les imprimer plusieurs fois.&lt;/dd&gt;
+  &lt;dt&gt;Réarranger les pièces&lt;/dt&gt;
+  &lt;dd&gt;Je trouve un agencement raisonnable pour que les pièces plus petites que le format A3 soient sur une seule (future) page tout en utilisant aussi peu de papier que possible.
+Je décide aussi comment positionner les plus grandes pièces pour que recoller le plan soit facile.
+Je les duplique autant que nécessaire pour en avoir une version par page où elles doivent apparaitre.
+Je duplique également l’échelle pour en avoir une sur chaque page.
+Je fais ensuite un groupe (menu “Object” -&amp;gt; “Group”) pour chaque (future) page.&lt;/dd&gt;
+  &lt;dt&gt;Créer plusieurs pages&lt;/dt&gt;
+  &lt;dd&gt;Je transforme le document en multi-pages (menu “Extensions” -&amp;gt; “Pages” -&amp;gt; “Create multi page document…”).
+J’ajoute le nombre de pages qu’il va me falloir (menu “Extensions” -&amp;gt; “Pages” -&amp;gt; “Insert…”) et je déplace chaque groupe créé précédemment vers sa page de destination (menu “Extensions” -&amp;gt; “Pages” -&amp;gt; “Move selected objects…”).
+J’ajuste ensuite la position des objets sur chaque page pour qu’ils sont bien dans la zone imprimée.&lt;/dd&gt;
+  &lt;dt&gt;Exporter en PDF&lt;/dt&gt;
+  &lt;dd&gt;Menu “Pages” -&amp;gt; “Export to PDF…”.&lt;/dd&gt;
+  &lt;dt&gt;Imprimer&lt;/dt&gt;
+  &lt;dd&gt;Dans Acrobat Reader, je fais bien attention à imprimer &lt;em&gt;sans aucune mise à l’échelle&lt;/em&gt;, sur du papier A3.&lt;/dd&gt;
+&lt;/dl&gt;</content><author><name>Vincent Jacques</name><email>vincent@vincent-jacques.net</email></author><summary type="html">Les [plans gratuits Flite Test] sont dans des formats de papier américains.
+Voici comment je retravaille ces plans pour les imprimer en A3.
+Vous trouverez les plans que j’ai retravaillés ici.</summary></entry><entry><title type="html">Remplacer les Power Packs de Flite Test</title><link href="http://0.0.0.0:4000/2016/12/20/remplacer-les-power-packs-de-flitetest" rel="alternate" type="text/html" title="Remplacer les Power Packs de Flite Test" /><published>2016-12-20T00:00:00+01:00</published><updated>2016-12-20T00:00:00+01:00</updated><id>http://0.0.0.0:4000/2016/12/20/remplacer-les-power-packs-de-flitetest</id><content type="html" xml:base="http://0.0.0.0:4000/2016/12/20/remplacer-les-power-packs-de-flitetest">&lt;p&gt;&lt;a href=&quot;http://flitetest.com/&quot;&gt;Flite Test&lt;/a&gt; distribue des &lt;em&gt;&lt;a href=&quot;http://store.flitetest.com/complete-power-pack-kits/&quot;&gt;Power Packs&lt;/a&gt;&lt;/em&gt; contenant une hélice, un moteur, et un contrôleur cohérents, adaptés à certaines tailles d’avion.
+Comme ces &lt;em&gt;Power Packs&lt;/em&gt; ne sont pas (encore ?) distribués en Europe dans le cadre de leur partenariat avec &lt;a href=&quot;https://www.graupner.com/Models/Flite-Test/&quot;&gt;Graupner&lt;/a&gt;, voici une analyse de leur contenu et des alternatives distribuées par &lt;a href=&quot;http://hobbyking.com/&quot;&gt;Hobby King&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;power-pack-a&quot;&gt;Power pack A&lt;/h2&gt;
+
+&lt;p&gt;Le &lt;a href=&quot;http://store.flitetest.com/power-pack-a-minis/&quot;&gt;power pack A&lt;/a&gt; convient pour les &lt;a href=&quot;/les-avions-d-internet/#petits-modles&quot;&gt;petits modèles&lt;/a&gt; et les &lt;a href=&quot;/les-avions-d-internet/#petits-modles-intermdiaires&quot;&gt;petits modèles intermédiaires&lt;/a&gt;.
+Il contient:&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;moteur &lt;a href=&quot;http://store.flitetest.com/emax-motor-mt1806/&quot;&gt;EMax MT1806 (KV=2280) CCW&lt;/a&gt;&lt;/dt&gt;
+  &lt;dd&gt;remplaçable par &lt;a href=&quot;https://hobbyking.com/en_us/qav1806-2300kv-ccw.html&quot;&gt;QAV1806 (KV=2300) CCW&lt;/a&gt; (ou &lt;a href=&quot;https://hobbyking.com/en_us/qav1806-2300kv-cw.html&quot;&gt;CW&lt;/a&gt;) avec des &lt;a href=&quot;https://hobbyking.com/en_us/2mm-gold-connectors-10-pairs-20pc-1.html&quot;&gt;bullet 2 mm&lt;/a&gt; mâles.&lt;/dd&gt;
+  &lt;dt&gt;contrôleur 12 A&lt;/dt&gt;
+  &lt;dd&gt;remplaçable par le &lt;a href=&quot;https://hobbyking.com/en_us/turnigy-plush-12amp-2a-bec-besc.html&quot;&gt;Turnigy Plush 12 A&lt;/a&gt; avec des &lt;a href=&quot;https://hobbyking.com/en_us/2mm-gold-connectors-10-pairs-20pc-1.html&quot;&gt;bullet 2 mm&lt;/a&gt; femelles et un &lt;a href=&quot;https://hobbyking.com/en_us/xt30-power-connectors-for-30a-continuous-applications-esc-side-5pcs.html&quot;&gt;XT30&lt;/a&gt; (ou &lt;a href=&quot;https://hobbyking.com/en_us/jst-female-2-pin-connector-set-10pcs-set.html&quot;&gt;JST&lt;/a&gt;) mâle.&lt;/dd&gt;
+  &lt;dt&gt;hélice 6x3&lt;/dt&gt;
+  &lt;dd&gt;ce moteur est en fait adapté aux hélices des tailles suivantes: &lt;a href=&quot;https://hobbyking.com/en_us/gemfan-propeller-5x3-black-cw-ccw-2pcs.html&quot;&gt;5x3&lt;/a&gt;, &lt;a href=&quot;https://hobbyking.com/en_us/gemfan-propeller-5x4-black-cw-ccw-2pcs.html&quot;&gt;5x4&lt;/a&gt;, &lt;a href=&quot;https://hobbyking.com/en_us/gemfan-propeller-5x4-5-black-cw-ccw-2pcs-1.html&quot;&gt;5x4.5&lt;/a&gt;, &lt;a href=&quot;https://hobbyking.com/en_us/tgs-precision-folding-propeller-5x5-black-1pc.html&quot;&gt;5x5&lt;/a&gt;, &lt;a href=&quot;https://hobbyking.com/en_us/gemfan-6030-grp-nylon-propellers-cw-ccw-set-black.html&quot;&gt;6x3&lt;/a&gt;, &lt;a href=&quot;https://hobbyking.com/en_us/apc-style-propeller-6x4-grey-ccw-2pcs.html&quot;&gt;6x4&lt;/a&gt; et &lt;a href=&quot;https://hobbyking.com/en_us/gemfan-multirotor-crp-propeller-6x4-5-black-cw-ccw-2pcs.html&quot;&gt;6x4.5&lt;/a&gt;.&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h2 id=&quot;power-pack-b&quot;&gt;Power pack B&lt;/h2&gt;
+
+&lt;p&gt;Le &lt;a href=&quot;http://store.flitetest.com/power-pack-b-fixed-wing-small/&quot;&gt;power pack B&lt;/a&gt; convient pour les &lt;a href=&quot;/les-avions-d-internet/#moyens-modles&quot;&gt;moyens modèles&lt;/a&gt; et les &lt;a href=&quot;/les-avions-d-internet/#moyens-modles-puissants&quot;&gt;moyens modèles puissants&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il contient:&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;moteur &lt;a href=&quot;http://store.flitetest.com/emax-cf2822-1200kv-motor-with-collet/&quot;&gt;EMax CF2822 (KV=1200)&lt;/a&gt;&lt;/dt&gt;
+  &lt;dd&gt;remplaçable par &lt;a href=&quot;https://hobbyking.com/en_us/ntm-prop-drive-series-28-26a-1200kv-286w-short-shaft-version.html&quot;&gt;NTM Prop Drive Series 28-26A (KV=1200)&lt;/a&gt;.&lt;/dd&gt;
+  &lt;dt&gt;ESC 20 A&lt;/dt&gt;
+  &lt;dd&gt;remplaçable par le &lt;a href=&quot;https://hobbyking.com/en_us/turnigy-plush-25amp-speed-controller.html&quot;&gt;Turnigy Plush 25 A&lt;/a&gt; avec des &lt;a href=&quot;https://hobbyking.com/en_us/polymax-3-5mm-gold-connectors-10-pairs-20pc.html&quot;&gt;bullet 3.5 mm&lt;/a&gt; femelles et un &lt;a href=&quot;https://hobbyking.com/en_us/nylon-xt60-connectors-male-female-5-pairs-genuine.html&quot;&gt;XT60&lt;/a&gt; mâle.&lt;/dd&gt;
+  &lt;dt&gt;hélice 8x4.5&lt;/dt&gt;
+  &lt;dd&gt;&lt;a href=&quot;https://hobbyking.com/en_us/propeller.html?diameter_x=8-8&amp;amp;pitch_y=4.5-4.5&quot;&gt;8x4.5&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h2 id=&quot;power-pack-c&quot;&gt;Power pack C&lt;/h2&gt;
+
+&lt;p&gt;Le &lt;a href=&quot;http://store.flitetest.com/power-pack-c-fixed-wing-large/&quot;&gt;power pack C&lt;/a&gt; convient pour les &lt;a href=&quot;/les-avions-d-internet/#moyens-modles-puissants&quot;&gt;moyens modèles puissants&lt;/a&gt; et les &lt;a href=&quot;/les-avions-d-internet/#gros-modles&quot;&gt;gros modèles&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il contient:&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;moteur &lt;a href=&quot;http://store.flitetest.com/emax-gt2215-1100kv-motor/&quot;&gt;EMax GT2215 (KV=1100)&lt;/a&gt;&lt;/dt&gt;
+  &lt;dd&gt;remplaçable par &lt;a href=&quot;https://hobbyking.com/en_us/a28m-brushless-outrunner-1100kv.html&quot;&gt;A28M (KV=1100)&lt;/a&gt; avec des &lt;a href=&quot;https://hobbyking.com/en_us/polymax-3-5mm-gold-connectors-10-pairs-20pc.html&quot;&gt;bullet 3.5 mm&lt;/a&gt; mâles (préférablement &lt;a href=&quot;https://hobbyking.com/en_us/ntm-prop-drive-series-28-30-1100kv-motor.html&quot;&gt;NTM Prop Drive Series 28-30 (KV=1100)&lt;/a&gt; s’il était disponible en Europe).&lt;/dd&gt;
+  &lt;dt&gt;ESC 30 A&lt;/dt&gt;
+  &lt;dd&gt;remplaçable par le &lt;a href=&quot;https://hobbyking.com/en_us/turnigy-plush-30amp-speed-controller.html&quot;&gt;Turnigy Plush 30 A&lt;/a&gt; avec des &lt;a href=&quot;https://hobbyking.com/en_us/polymax-3-5mm-gold-connectors-10-pairs-20pc.html&quot;&gt;bullet 3.5 mm&lt;/a&gt; femelles et un &lt;a href=&quot;https://hobbyking.com/en_us/nylon-xt60-connectors-male-female-5-pairs-genuine.html&quot;&gt;XT60&lt;/a&gt; mâle.&lt;/dd&gt;
+  &lt;dt&gt;hélice 10x4.7&lt;/dt&gt;
+  &lt;dd&gt;&lt;a href=&quot;https://hobbyking.com/en_us/propeller.html?diameter_x=10-10&amp;amp;pitch_y=4.7-4.7&quot;&gt;10x4.7&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h2 id=&quot;power-pack-f&quot;&gt;Power pack F&lt;/h2&gt;
+
+&lt;p&gt;Le &lt;a href=&quot;http://store.flitetest.com/power-pack-f/&quot;&gt;power pack F&lt;/a&gt; convient pour les &lt;a href=&quot;/les-avions-d-internet/#petits-modles-intermdiaires&quot;&gt;petits modèles intermédiaires&lt;/a&gt; et les &lt;a href=&quot;/les-avions-d-internet/#petits-modles-puissants&quot;&gt;petits modèles puissants&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il contient:&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;moteur &lt;a href=&quot;http://store.flitetest.com/emax-motor-mt2204-kv2300/&quot;&gt;EMax MT2204 (KV=2300) CCW&lt;/a&gt;&lt;/dt&gt;
+  &lt;dd&gt;remplaçable par &lt;a href=&quot;https://hobbyking.com/en_us/kingkong-2204-2300kv-ccw.html&quot;&gt;KINGKONG 2204 (KV=2300) CCW&lt;/a&gt; (ou &lt;a href=&quot;https://hobbyking.com/en_us/kingkong-2204-2300kv.html&quot;&gt;CW&lt;/a&gt;) avec des &lt;a href=&quot;https://hobbyking.com/en_us/2mm-gold-connectors-10-pairs-20pc-1.html&quot;&gt;bullet 2 mm&lt;/a&gt; mâles.&lt;/dd&gt;
+  &lt;dt&gt;contrôleur 12 A&lt;/dt&gt;
+  &lt;dd&gt;remplaçable par le &lt;a href=&quot;https://hobbyking.com/en_us/turnigy-plush-12amp-2a-bec-besc.html&quot;&gt;Turnigy Plush 12 A&lt;/a&gt; avec des &lt;a href=&quot;https://hobbyking.com/en_us/2mm-gold-connectors-10-pairs-20pc-1.html&quot;&gt;bullet 2 mm&lt;/a&gt; femelles et un &lt;a href=&quot;https://hobbyking.com/en_us/xt30-power-connectors-for-30a-continuous-applications-esc-side-5pcs.html&quot;&gt;XT30&lt;/a&gt; (ou &lt;a href=&quot;https://hobbyking.com/en_us/jst-female-2-pin-connector-set-10pcs-set.html&quot;&gt;JST&lt;/a&gt;) mâle.&lt;/dd&gt;
+  &lt;dt&gt;hélice 6x4.5&lt;/dt&gt;
+  &lt;dd&gt;ce moteur est en fait adapté aux hélices des tailles suivantes: &lt;a href=&quot;https://hobbyking.com/en_us/gemfan-propeller-5x3-black-cw-ccw-2pcs.html&quot;&gt;5x3&lt;/a&gt;, &lt;a href=&quot;https://hobbyking.com/en_us/gemfan-propeller-5x4-black-cw-ccw-2pcs.html&quot;&gt;5x4&lt;/a&gt;, &lt;a href=&quot;https://hobbyking.com/en_us/gemfan-propeller-5x4-5-black-cw-ccw-2pcs-1.html&quot;&gt;5x4.5&lt;/a&gt;, &lt;a href=&quot;https://hobbyking.com/en_us/tgs-precision-folding-propeller-5x5-black-1pc.html&quot;&gt;5x5&lt;/a&gt;, &lt;a href=&quot;https://hobbyking.com/en_us/gemfan-6030-grp-nylon-propellers-cw-ccw-set-black.html&quot;&gt;6x3&lt;/a&gt;, &lt;a href=&quot;https://hobbyking.com/en_us/apc-style-propeller-6x4-grey-ccw-2pcs.html&quot;&gt;6x4&lt;/a&gt; et &lt;a href=&quot;https://hobbyking.com/en_us/gemfan-multirotor-crp-propeller-6x4-5-black-cw-ccw-2pcs.html&quot;&gt;6x4.5&lt;/a&gt;.&lt;/dd&gt;
+&lt;/dl&gt;</content><author><name>Vincent Jacques</name><email>vincent@vincent-jacques.net</email></author><summary type="html">[Flite Test] distribue des Power Packs contenant une hélice, un moteur, et un contrôleur cohérents, adaptés à certaines tailles d’avion.
+Comme ces Power Packs ne sont pas (encore ?) distribués en Europe dans le cadre de leur partenariat avec Graupner, voici une analyse de leur contenu et des alternatives distribuées par [Hobby King].</summary></entry></feed>
