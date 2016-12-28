@@ -2,6 +2,16 @@
 title: Achats
 hidden: true
 ---
+FT A Twin: Mini Guinea -> 1*CCW, 1*CW
+FT B: Sea Otter ? -> 1*CW
+FT C: Spear -> 1*CW
+FT C Twin: Sea Duck -> 1*CCW, 1*CW
+EA S: Un ou deux -> 2*CCW
+EA M: Un ou deux -> 2*CCW
+EA M Twin: ECV Carrier -> 1*CCW, 1*CW
+
+épingles à tête triangulaire
+microscope/endoscope USB
 
 ballons-fleche nerf ?
 
@@ -33,12 +43,14 @@ plombs de pèche ("olive") https://www.amazon.fr/gp/aag/main?ie=UTF8&asin=&isAma
 HobbyKing
 ---------
 
+https://hobbyking.com/en_us/turnigy-transmitter-muff-black.html
 Des Y pour servos (plein, de toutes tailles)
 Des "linkage stopper" (pour les servos)
 Des servos 9g et 5g
 De la lumière
 Des roues
 https://hobbyking.com/en_us/hobbykingtm-bix3-trainer-1550mm-replacement-wing-bolts.html et d'autres pièces pour le Bix 3 (prop et prop adapter en particulier)
+Des hélices, moteurs et ESCs pur les modèles à venir
 
 Leroy Merlin / BHV
 ------------------
