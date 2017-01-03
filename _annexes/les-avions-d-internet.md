@@ -13,7 +13,7 @@ Pour certains modèles, j'ai [retravaillé les plans originaux]({% post_url 2016
 
 ### Petits modèles
 
-Ils sont motorisés par le [power pack A]({{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-a).
+Ils sont motorisés par le [power pack A].
 
 Monomoteurs:
 
@@ -31,7 +31,7 @@ Bimoteurs:
 
 ### Petits modèles intermédiaires
 
-Ils sont motorisés par le [power pack A]({{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-a) ou le [power pack F]({{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-f).
+Ils sont motorisés par le [power pack A] ou le [power pack F].
 
 Monomoteurs:
 
@@ -40,7 +40,7 @@ Monomoteurs:
 
 ### Petits modèles puissants
 
-Ils sont motorisés par le [power pack F]({{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-f).
+Ils sont motorisés par le [power pack F].
 
 Monomoteurs:
 
@@ -56,7 +56,7 @@ Monomoteurs:
 
 ### Moyens modèles
 
-Ils sont motorisés par le [power pack B]({{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-b).
+Ils sont motorisés par le [power pack B].
 
 Monomoteurs:
 
@@ -75,7 +75,7 @@ Bimoteurs:
 
 ### Moyens modèles puissants
 
-Ils sont motorisés par le [power pack B]({{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-b) ou le [power pack C]({{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-c).
+Ils sont motorisés par le [power pack B] ou le [power pack C].
 
 - [FT Viggen](http://flitetest.com/articles/ft-viggen-build) (12 février 2014, EDF, 70&nbsp;cm)
 - [FT Bloody Wonder](http://flitetest.com/articles/FT_Bloody_Wonder_Scratch_Build) (1 novembre 2012, Simple, 71&nbsp;cm)
@@ -91,7 +91,7 @@ Bimoteurs:
 
 ### Gros modèles
 
-Ils sont motorisés par le [power pack C]({{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-c).
+Ils sont motorisés par le [power pack C].
 
 Monomoteurs:
 
@@ -115,5 +115,10 @@ Experimental Airlines
 ---------------------
 
 @todo
+
+[power pack A]: {{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-a
+[power pack B]: {{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-b
+[power pack C]: {{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-c
+[power pack F]: {{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-f
 
 {% include links_by_title.md %}
