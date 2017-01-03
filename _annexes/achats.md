@@ -2,6 +2,8 @@
 title: Achats
 hidden: true
 ---
+Achats à faire
+
 FT A Twin: Mini Guinea -> 1*CCW, 1*CW
 FT B: Sea Otter ? -> 1*CW
 FT C: Spear -> 1*CW
