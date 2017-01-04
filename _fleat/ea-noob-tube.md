@@ -21,4 +21,7 @@ servos:
   - role: ailerons
     count: 2
     model: "[9&nbsp;g]"
+todo:
+  - Faire voler
+  - Réessayer avec The Workhorse
 ---

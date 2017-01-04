@@ -16,6 +16,6 @@ servos:
   - role: pas collectif
     model: d'origine
 todo:
-  - racheter des batteries
+  - Racheter des batteries
 ---
 @todo Add picture

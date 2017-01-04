@@ -2,7 +2,7 @@
 title: Achats
 hidden: true
 ---
-Achats à faire
+Achats à faire.
 
 FT A Twin: Mini Guinea -> 1*CCW, 1*CW
 FT B: Sea Otter ? -> 1*CW
@@ -11,6 +11,14 @@ FT C Twin: Sea Duck -> 1*CCW, 1*CW
 EA S: Un ou deux -> 2*CCW
 EA M: Un ou deux -> 2*CCW
 EA M Twin: ECV Carrier -> 1*CCW, 1*CW
+
+http://www.studiosport.fr/radio-horus-x12s-16-voies-2-4-ghz-a10918.html
+http://www.banggood.com/Flysky-FS-i6X-2_4GHz-10CH-AFHDS-2A-RC-Transmitter-With-X6B-i-BUS-Receiver-p-1090406.html
+https://www.youtube.com/watch?v=GCYtWUJlTrg
+http://www.flitetest.com/articles/spektrofy-your-taranis
+https://www.youtube.com/watch?v=Ts0EzeJsoNc
+https://www.youtube.com/watch?v=pSMZNkiLENQ
+http://www.thingiverse.com/thing:293608
 
 épingles à tête triangulaire
 microscope/endoscope USB

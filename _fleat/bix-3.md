@@ -24,5 +24,7 @@ servos:
   - role: volets
     count: 2
     model: "[9&nbsp;g]"
+todo:
+  - Changer les servos&nbsp;?
 ---
 J'y ai ajouté un mécanisme de largage de parachutes (diamètre du parachute&nbsp;: 70&nbsp;cm, poids de la charge parachutée&nbsp;: 105&nbsp;g).

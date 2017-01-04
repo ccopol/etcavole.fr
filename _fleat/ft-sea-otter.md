@@ -1,5 +1,5 @@
 ---
-name: FT Sea Duck
+name: FT Sea Otter
 origin: "Plan publié par Flite Test"
 todo:
   - Construire

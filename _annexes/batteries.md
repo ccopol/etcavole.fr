@@ -138,7 +138,7 @@ batteries:
     20160928: charge
     20161219: charge d'entretien
 ---
-Gestion de mes batteries
+Gestion de mes batteries.
 
 {% for battery in page.batteries %}
 ## {{ battery[0] }}

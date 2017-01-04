@@ -1,6 +1,6 @@
 ---
 title: Liens
 ---
-Quelques liens
+Quelques liens.
 
 {% include links_by_category.md %}
