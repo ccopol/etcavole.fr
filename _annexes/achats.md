@@ -60,7 +60,7 @@ Des servos 9g et 5g
 De la lumière
 Des roues
 https://hobbyking.com/en_us/hobbykingtm-bix3-trainer-1550mm-replacement-wing-bolts.html et d'autres pièces pour le Bix 3 (prop et prop adapter en particulier)
-Des hélices, moteurs et ESCs pur les modèles à venir
+Des hélices, moteurs et ESCs pur les modèles à venir, et en pièces de rechange pour les modèles existants
 
 Leroy Merlin / BHV
 ------------------

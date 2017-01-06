@@ -10,7 +10,7 @@ Mes modèles.
 
 ## {{ plane.name }}
 
-![{{ plane.name }}]({{ plane.name | slugify }}.jpg){:class="img-fluid"}
+[![{{ plane.name }}]({{ plane.name | slugify }}.jpg){:class="img-fluid"}]({{ plane.name | slugify }}-hd.jpg)
 
 {{ plane.origin }}
 

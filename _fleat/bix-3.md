@@ -28,3 +28,5 @@ todo:
   - Changer les servos&nbsp;?
 ---
 J'y ai ajouté un mécanisme de largage de parachutes (diamètre du parachute&nbsp;: 70&nbsp;cm, poids de la charge parachutée&nbsp;: 105&nbsp;g).
+
+[![Mécanisme du parachute](bix-3-parachute-mechanism.jpg){:class="img-fluid"}](bix-3-parachute-mechanism-hd.jpg)

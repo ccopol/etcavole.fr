@@ -11,7 +11,7 @@ current: 9
 power: 65
 receiver: "[6 voies compatible DSM2]"
 esc: "[Turnigy Plush 10&nbsp;A]"
-motor: "[QAV1806 (KV=2300) CW]"
+motor: "[QAV1806 (KV=2300) CCW]"
 propeller: "[6x4.5]"
 servos:
   - role: empennage en V
