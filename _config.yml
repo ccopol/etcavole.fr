@@ -38,3 +38,4 @@ collections:
 exclude:
   - README.md
   - run_development_cycle.sh
+  - _annexes/la-flotte_parts.md

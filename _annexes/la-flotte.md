@@ -4,36 +4,34 @@ title: La flotte
 Mes modèles.
 
 <div class="row">
-{% assign planes = site.fleat | where_exp: "plane", "plane.display_order" | sort: 'display_order' %}
-{% for plane in planes  %}
+{% assign models = site.fleat | where_exp: "model", "model.display_order" | sort: 'display_order' %}
+{% for model in models  %}
 <div class="col-lg-4 col-md-6">
 
-## {{ plane.name }}
+## {{ model.name }}
 
-[![{{ plane.name }}]({{ plane.name | slugify }}.jpg){:class="img-fluid"}]({{ plane.name | slugify }}-hd.jpg)
+[![{{ model.name }}]({{ model.name | slugify }}.jpg){:class="img-fluid"}]({{ model.name | slugify }}-hd.jpg)
 
-{{ plane.origin }}
+{{ model.origin }}
 
-Envergure&nbsp;: {{ plane.wingspan }}&nbsp;cm,
-longueur&nbsp;: {{ plane.length }}&nbsp;cm,
-poids en vol&nbsp;: {{ plane.weight }}&nbsp;g,
-poussée&nbsp;: {{ plane.thrust }}&nbsp;g{% if plane.current %} (pour {{ plane.current }}&nbsp;A i.e. {{ plane.power }}&nbsp;W){% endif %}
+Envergure&nbsp;: {{ model.wingspan }}&nbsp;cm,
+longueur&nbsp;: {{ model.length }}&nbsp;cm,
+poids en vol&nbsp;: {{ model.weight }}&nbsp;g,
+poussée&nbsp;: {{ model.thrust }}&nbsp;g{% if model.current %} (pour {{ model.current }}&nbsp;A i.e. {{ model.power }}&nbsp;W){% endif %}
 
-Batteries&nbsp;: {{ plane.battery }}
+Batteries&nbsp;: {{ model.battery }}
 
-Récepteur&nbsp;: {{ plane.receiver }}
+Récepteur&nbsp;: {{ model.receiver }}
 
-Contrôleur&nbsp;: {{ plane.esc }}
+{% include_relative la-flotte_parts.md singular="Contrôleur" part=model.esc plural="Contrôleurs" parts=model.escs %}
 
-Moteur&nbsp;: {{ plane.motor }}
+{% include_relative la-flotte_parts.md singular="Moteur" part=model.motor plural="Moteurs" parts=model.motors %}
 
-Hélice&nbsp;: {{ plane.propeller }}
+{% include_relative la-flotte_parts.md singular="Hélice" part=model.propeller plural="Hélices" parts=model.propellers %}
 
-Servos&nbsp;:
-{% for servo in plane.servos %}
-- {{ servo.role }}&nbsp;: {% if servo.count %}{{ servo.count }} fois {% endif %}{{ servo.model }}{% endfor %}
+{% include_relative la-flotte_parts.md singular="Servo" part=model.servo plural="Servos" parts=model.servos %}
 
-{{ plane.output }}{{ plane.content }}
+{{ model.content }}
 </div>
 {% assign index = forloop.index | modulo: 2 %}
 {% if index == 0 %}<div class="clearfix hidden-lg-up"></div>{% endif %}
