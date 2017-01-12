@@ -2,7 +2,7 @@
 title: Mes batteries
 hidden: true
 batteries:
-  A (2S, 850mAh, rouge):
+  "A (2S, 850&nbsp;mAh, rouge)":
     20160627: peu utilisée avant
     20160628: décharge
     20160629: charge
@@ -27,7 +27,7 @@ batteries:
     20161122: [décharge, charge]
     20161127: [décharge, charge]
     20161219: charge d'entretien
-  B (2S, 850mAh, rouge):
+  "B (2S, 850&nbsp;mAh, rouge)":
     20160628: peu utilisée avant
     20160629: charge d'entretien
     20160630: [décharge, charge]
@@ -51,7 +51,7 @@ batteries:
     20161109: charge
     20161122: [décharge, charge]
     20161219: charge d'entretien
-  C (2S, 180mAh, bleue):
+  "C (2S, 180&nbsp;mAh, bleue)":
     20160624: achat, première charge
     20160806: [décharge, charge]
     20160812: [décharge, charge]
@@ -61,7 +61,7 @@ batteries:
     20161104: décharge
     20161119: charge
     20161219: charge d'entretien
-  D (2S, 180mAh, bleue):
+  "D (2S, 180&mAh, bleue)":
     20160624: [achat, première charge]
     20160727: [décharge, charge]
     20160806: [décharge, charge]
@@ -72,7 +72,7 @@ batteries:
     20161104: décharge
     20161119: charge
     20161219: charge d'entretien
-  E (2S, 900mAh, blanche):
+  "E (2S, 900&nbsp;mAh, blanche)":
     20160628: peu utilisée avant
     20160629: [charge d'entretien, décharge partielle, charge]
     20160709: décharge
@@ -89,30 +89,30 @@ batteries:
     20161031: [décharge, charge]
     20171127: [décharge, charge]
     20161219: charge d'entretien
-  F (2S, 360mAh, rouge):
+  "F (2S, 360&nbsp;mAh, rouge)":
     20160628: peu utilisée avant (achetée par erreur)
     20160629: charge d'entretien
     20160820: charge d'entretien
     20161219: charge d'entretien
-  G (2S, 360mAh, rouge):
+  "G (2S, 360&nbsp;mAh, rouge)":
     20160628: peu utilisée avant (achetée par erreur)
     20160629: charge d'entretien
     20160820: [décharge partielle, charge]
     20161219: charge d'entretien
-  H (1S, 150mAh):
+  "H (1S, 150&nbsp;mAh)":
     20160624: [achat, première charge]
     20160709: [décharge, charge]
     20160710: [décharge, charge]
     20160807: charge d'entretien
     20161219: charge d'entretien
-  I (1S, 150mAh):
+  "I (1S, 150&nbsp;mAh)":
     20160624: [achat, première charge]
     20160709: [décharge, charge]
     20160711: [décharge, charge]
     20160807: charge d'entretien
     20161104: [décharge, charge]
     20161219: charge d'entretien
-  J (3S, 2.2Ah):
+  "J (3S, 2.2&nbsp;Ah)":
     20160630: [achat, première charge]
     20160806: charge d'entretien
     20160812: décharge
@@ -123,7 +123,7 @@ batteries:
     20160927: décharge
     20160928: charge
     20161219: charge d'entretien
-  K (3S, 2.2Ah):
+  "K (3S, 2.2&nbsp;Ah)":
     20160630: achat
     20160701: première charge
     20160807: charge d'entretien
