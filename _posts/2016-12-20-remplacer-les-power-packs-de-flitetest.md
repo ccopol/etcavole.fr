@@ -7,7 +7,7 @@ Comme ces *Power Packs* ne sont pas (encore ?) distribués en Europe dans le cad
 Power pack A
 ------------
 
-Le [power pack A](http://store.flitetest.com/power-pack-a-minis/) convient pour les [petits modèles](/les-avions-d-internet/#petits-modles) et les [petits modèles intermédiaires](/les-avions-d-internet/#petits-modles-intermdiaires).
+Le [power pack A](http://store.flitetest.com/power-pack-a-minis/) convient pour les [petits modèles](/les-avions-d-internet/#ft-petits) et les [petits modèles intermédiaires](/les-avions-d-internet/#ft-petits-intermediaires).
 Il contient:
 
 moteur [EMax MT1806 (KV=2280) CCW](http://store.flitetest.com/emax-motor-mt1806/)
@@ -22,14 +22,14 @@ hélice 6x3
 Power pack B
 ------------
 
-Le [power pack B](http://store.flitetest.com/power-pack-b-fixed-wing-small/) convient pour les [moyens modèles](/les-avions-d-internet/#moyens-modles) et les [moyens modèles puissants](/les-avions-d-internet/#moyens-modles-puissants).
+Le [power pack B](http://store.flitetest.com/power-pack-b-fixed-wing-small/) convient pour les [moyens modèles](/les-avions-d-internet/#ft-moyens) et les [moyens modèles puissants](/les-avions-d-internet/#ft-moyens-puissants).
 
 Il contient:
 
 moteur [EMax CF2822 (KV=1200)](http://store.flitetest.com/emax-cf2822-1200kv-motor-with-collet/)
 : remplaçable par [NTM Prop Drive Series 28-26A (KV=1200)](https://hobbyking.com/en_us/ntm-prop-drive-series-28-26a-1200kv-286w-short-shaft-version.html).
 
-ESC 20 A
+contrôleur 20 A
 : remplaçable par le [Turnigy Plush 25&nbsp;A] avec des [bullet 3.5&nbsp;mm] femelles et un [XT60] mâle.
 
 hélice 8x4.5
@@ -38,14 +38,14 @@ hélice 8x4.5
 Power pack C
 ------------
 
-Le [power pack C](http://store.flitetest.com/power-pack-c-fixed-wing-large/) convient pour les [moyens modèles puissants](/les-avions-d-internet/#moyens-modles-puissants) et les [gros modèles](/les-avions-d-internet/#gros-modles).
+Le [power pack C](http://store.flitetest.com/power-pack-c-fixed-wing-large/) convient pour les [moyens modèles puissants](/les-avions-d-internet/#ft-moyens-puissants) et les [gros modèles](/les-avions-d-internet/#ft-gros).
 
 Il contient:
 
 moteur [EMax GT2215 (KV=1100)](http://store.flitetest.com/emax-gt2215-1100kv-motor/)
 : remplaçable par [A28M (KV=1100)](https://hobbyking.com/en_us/a28m-brushless-outrunner-1100kv.html) avec des [bullet 3.5&nbsp;mm] mâles (préférablement [NTM Prop Drive Series 28-30 (KV=1100)](https://hobbyking.com/en_us/ntm-prop-drive-series-28-30-1100kv-motor.html) s'il était disponible en Europe).
 
-ESC 30 A
+contrôleur 30 A
 : remplaçable par le [Turnigy Plush 30&nbsp;A] avec des [bullet 3.5&nbsp;mm] femelles et un [XT60] mâle.
 
 hélice 10x4.7
@@ -54,7 +54,7 @@ hélice 10x4.7
 Power pack F
 ------------
 
-Le [power pack F](http://store.flitetest.com/power-pack-f/) convient pour les [petits modèles intermédiaires](/les-avions-d-internet/#petits-modles-intermdiaires) et les [petits modèles puissants](/les-avions-d-internet/#petits-modles-puissants).
+Le [power pack F](http://store.flitetest.com/power-pack-f/) convient pour les [petits modèles intermédiaires](/les-avions-d-internet/#ft-petits-intermediaires) et les [petits modèles puissants](/les-avions-d-internet/#ft-petits-puissants).
 
 Il contient:
 

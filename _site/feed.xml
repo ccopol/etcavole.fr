@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://0.0.0.0:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2017-01-06T20:49:46+01:00</updated><id>http://0.0.0.0:4000//</id><title type="html">Et ça vole ?!</title><subtitle>Blog technique sur ce qui vole plus ou moins tout seul. Ou pas.</subtitle><author><name>Vincent Jacques</name><email>vincent@vincent-jacques.net</email></author><entry><title type="html">Préparer les plans Flite Test pour impression</title><link href="http://0.0.0.0:4000/2016/12/22/preparer-les-plans-flitetest-pour-impression" rel="alternate" type="text/html" title="Préparer les plans Flite Test pour impression" /><published>2016-12-22T00:00:00+01:00</published><updated>2016-12-22T00:00:00+01:00</updated><id>http://0.0.0.0:4000/2016/12/22/preparer-les-plans-flitetest-pour-impression</id><content type="html" xml:base="http://0.0.0.0:4000/2016/12/22/preparer-les-plans-flitetest-pour-impression">&lt;p&gt;Les &lt;a href=&quot;http://flitetest.com/free-build-plans/&quot;&gt;plans gratuits Flite Test&lt;/a&gt; sont dans des formats de papier américains.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://0.0.0.0:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2017-01-12T12:19:03+01:00</updated><id>http://0.0.0.0:4000//</id><title type="html">Et ça vole ?!</title><subtitle>Blog technique sur ce qui vole plus ou moins tout seul. Ou pas.</subtitle><author><name>Vincent Jacques</name><email>vincent@vincent-jacques.net</email></author><entry><title type="html">Les Power Plants de Experimental Airlines</title><link href="http://0.0.0.0:4000/2017/01/12/les-power-plants-de-experimental-airlines" rel="alternate" type="text/html" title="Les Power Plants de Experimental Airlines" /><published>2017-01-12T00:00:00+01:00</published><updated>2017-01-12T00:00:00+01:00</updated><id>http://0.0.0.0:4000/2017/01/12/les-power-plants-de-experimental-airlines</id><content type="html" xml:base="http://0.0.0.0:4000/2017/01/12/les-power-plants-de-experimental-airlines">&lt;p&gt;Ed, de &lt;a href=&quot;https://www.youtube.com/user/ExperimentalAirlines&quot;&gt;Experimental Airlines&lt;/a&gt; propose ces trois ensembles de propulsion pour ses modèles.&lt;/p&gt;
+
+&lt;p&gt;Il en a mesuré les performances et regroupé les &lt;a href=&quot;https://docs.google.com/spreadsheet/ccc?key=0AtSZzrsraF1-dDJzNGVEMnZnRzNzMkJab2dfRjlxMnc&amp;amp;usp=sharing&amp;amp;pageId=111455250167319531749&quot;&gt;résultats ici&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;petit&quot;&gt;Petit (&lt;a href=&quot;https://www.youtube.com/watch?v=Xy8az2-yyiQ&quot;&gt;Pocket Rocket&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;p&gt;Pour les &lt;a href=&quot;/les-avions-d-internet/#ea-petits&quot;&gt;petits modèles de EA&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;moteur : &lt;a href=&quot;https://hobbyking.com/en_us/d2826-6-2200kv-outrunner-motor.html&quot;&gt;Turnigy D2826/6 (KV=2200)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;contrôleur : &lt;a href=&quot;https://hobbyking.com/en_us/turnigy-plush-40amp-speed-controller-w-5a-bec.html&quot;&gt;Turnigy Plush 40 A&lt;/a&gt; avec des &lt;a href=&quot;https://hobbyking.com/en_us/polymax-3-5mm-gold-connectors-10-pairs-20pc.html&quot;&gt;bullet 3.5 mm&lt;/a&gt; femelles et un &lt;a href=&quot;https://hobbyking.com/en_us/nylon-xt60-connectors-male-female-5-pairs-genuine.html&quot;&gt;XT60&lt;/a&gt; mâle&lt;/li&gt;
+  &lt;li&gt;hélice : &lt;a href=&quot;https://hobbyking.com/en_us/apc-style-propeller-6x4-grey-ccw-2pcs.html&quot;&gt;6x4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;moyen&quot;&gt;Moyen (&lt;a href=&quot;https://www.youtube.com/watch?v=j17m5AhMmd0&quot;&gt;The Workhorse&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;p&gt;Pour les modèles de 700 g à 1,2 kg (et donc les &lt;a href=&quot;/les-avions-d-internet/#ea-moyens&quot;&gt;moyens modèles de EA&lt;/a&gt;).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;moteur : &lt;a href=&quot;https://hobbyking.com/en_us/turnigy-d2836-8-1100kv-brushless-outrunner-motor.html&quot;&gt;Turnigy D2836/8 (KV=1100)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;contrôleur : &lt;a href=&quot;https://hobbyking.com/en_us/turnigy-plush-25amp-speed-controller.html&quot;&gt;Turnigy Plush 25 A&lt;/a&gt; avec des &lt;a href=&quot;https://hobbyking.com/en_us/polymax-3-5mm-gold-connectors-10-pairs-20pc.html&quot;&gt;bullet 3.5 mm&lt;/a&gt; femelles et un &lt;a href=&quot;https://hobbyking.com/en_us/nylon-xt60-connectors-male-female-5-pairs-genuine.html&quot;&gt;XT60&lt;/a&gt; mâle&lt;/li&gt;
+  &lt;li&gt;hélice : [10x6], [11x4]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;gros&quot;&gt;Gros (&lt;a href=&quot;https://www.youtube.com/watch?v=81IzfoTQ29Q&quot;&gt;The Powerhouse&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;p&gt;Pour les modèles de 1 kg à 1,8 kg (et donc les &lt;a href=&quot;/les-avions-d-internet/#ea-gros&quot;&gt;gros modèles de EA&lt;/a&gt;).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;moteur : &lt;a href=&quot;https://hobbyking.com/en_us/ntm-prop-drive-series-35-36a-1400kv-550w.html&quot;&gt;NTM Prop Drive Series 35-36A (KV=1400)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;contrôleur : &lt;a href=&quot;https://hobbyking.com/en_us/turnigy-plush-60amp-speed-controller.html&quot;&gt;Turnigy Plush 60 A&lt;/a&gt; avec des &lt;a href=&quot;https://hobbyking.com/en_us/polymax-3-5mm-gold-connectors-10-pairs-20pc.html&quot;&gt;bullet 3.5 mm&lt;/a&gt; femelles et un &lt;a href=&quot;https://hobbyking.com/en_us/nylon-xt60-connectors-male-female-5-pairs-genuine.html&quot;&gt;XT60&lt;/a&gt; (ou &lt;a href=&quot;https://hobbyking.com/en_us/nylon-xt90-connectors-male-female-5-pairs.html&quot;&gt;XT90&lt;/a&gt;) mâle&lt;/li&gt;
+  &lt;li&gt;hélice : [10x6], [11x4]&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Vincent Jacques</name><email>vincent@vincent-jacques.net</email></author><summary type="html">Ed, de [Experimental Airlines] propose ces trois ensembles de propulsion pour ses modèles.</summary></entry><entry><title type="html">Préparer les plans Flite Test pour impression</title><link href="http://0.0.0.0:4000/2016/12/22/preparer-les-plans-flitetest-pour-impression" rel="alternate" type="text/html" title="Préparer les plans Flite Test pour impression" /><published>2016-12-22T00:00:00+01:00</published><updated>2016-12-22T00:00:00+01:00</updated><id>http://0.0.0.0:4000/2016/12/22/preparer-les-plans-flitetest-pour-impression</id><content type="html" xml:base="http://0.0.0.0:4000/2016/12/22/preparer-les-plans-flitetest-pour-impression">&lt;p&gt;Les &lt;a href=&quot;http://flitetest.com/free-build-plans/&quot;&gt;plans gratuits Flite Test&lt;/a&gt; sont dans des formats de papier américains.
 Voici comment je retravaille ces plans pour les imprimer en A3.
 Vous trouverez &lt;a href=&quot;/les-avions-d-internet/&quot;&gt;les plans que j’ai retravaillés&lt;/a&gt; ici.&lt;/p&gt;
 
@@ -60,7 +92,7 @@ Comme ces &lt;em&gt;Power Packs&lt;/em&gt; ne sont pas (encore ?) distribués en
 
 &lt;h2 id=&quot;power-pack-a&quot;&gt;Power pack A&lt;/h2&gt;
 
-&lt;p&gt;Le &lt;a href=&quot;http://store.flitetest.com/power-pack-a-minis/&quot;&gt;power pack A&lt;/a&gt; convient pour les &lt;a href=&quot;/les-avions-d-internet/#petits-modles&quot;&gt;petits modèles&lt;/a&gt; et les &lt;a href=&quot;/les-avions-d-internet/#petits-modles-intermdiaires&quot;&gt;petits modèles intermédiaires&lt;/a&gt;.
+&lt;p&gt;Le &lt;a href=&quot;http://store.flitetest.com/power-pack-a-minis/&quot;&gt;power pack A&lt;/a&gt; convient pour les &lt;a href=&quot;/les-avions-d-internet/#ft-petits&quot;&gt;petits modèles&lt;/a&gt; et les &lt;a href=&quot;/les-avions-d-internet/#ft-petits-intermediaires&quot;&gt;petits modèles intermédiaires&lt;/a&gt;.
 Il contient:&lt;/p&gt;
 
 &lt;dl&gt;
@@ -74,14 +106,14 @@ Il contient:&lt;/p&gt;
 
 &lt;h2 id=&quot;power-pack-b&quot;&gt;Power pack B&lt;/h2&gt;
 
-&lt;p&gt;Le &lt;a href=&quot;http://store.flitetest.com/power-pack-b-fixed-wing-small/&quot;&gt;power pack B&lt;/a&gt; convient pour les &lt;a href=&quot;/les-avions-d-internet/#moyens-modles&quot;&gt;moyens modèles&lt;/a&gt; et les &lt;a href=&quot;/les-avions-d-internet/#moyens-modles-puissants&quot;&gt;moyens modèles puissants&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Le &lt;a href=&quot;http://store.flitetest.com/power-pack-b-fixed-wing-small/&quot;&gt;power pack B&lt;/a&gt; convient pour les &lt;a href=&quot;/les-avions-d-internet/#ft-moyens&quot;&gt;moyens modèles&lt;/a&gt; et les &lt;a href=&quot;/les-avions-d-internet/#ft-moyens-puissants&quot;&gt;moyens modèles puissants&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Il contient:&lt;/p&gt;
 
 &lt;dl&gt;
   &lt;dt&gt;moteur &lt;a href=&quot;http://store.flitetest.com/emax-cf2822-1200kv-motor-with-collet/&quot;&gt;EMax CF2822 (KV=1200)&lt;/a&gt;&lt;/dt&gt;
   &lt;dd&gt;remplaçable par &lt;a href=&quot;https://hobbyking.com/en_us/ntm-prop-drive-series-28-26a-1200kv-286w-short-shaft-version.html&quot;&gt;NTM Prop Drive Series 28-26A (KV=1200)&lt;/a&gt;.&lt;/dd&gt;
-  &lt;dt&gt;ESC 20 A&lt;/dt&gt;
+  &lt;dt&gt;contrôleur 20 A&lt;/dt&gt;
   &lt;dd&gt;remplaçable par le &lt;a href=&quot;https://hobbyking.com/en_us/turnigy-plush-25amp-speed-controller.html&quot;&gt;Turnigy Plush 25 A&lt;/a&gt; avec des &lt;a href=&quot;https://hobbyking.com/en_us/polymax-3-5mm-gold-connectors-10-pairs-20pc.html&quot;&gt;bullet 3.5 mm&lt;/a&gt; femelles et un &lt;a href=&quot;https://hobbyking.com/en_us/nylon-xt60-connectors-male-female-5-pairs-genuine.html&quot;&gt;XT60&lt;/a&gt; mâle.&lt;/dd&gt;
   &lt;dt&gt;hélice 8x4.5&lt;/dt&gt;
   &lt;dd&gt;&lt;a href=&quot;https://hobbyking.com/en_us/propeller.html?diameter_x=8-8&amp;amp;pitch_y=4.5-4.5&quot;&gt;8x4.5&lt;/a&gt;&lt;/dd&gt;
@@ -89,14 +121,14 @@ Il contient:&lt;/p&gt;
 
 &lt;h2 id=&quot;power-pack-c&quot;&gt;Power pack C&lt;/h2&gt;
 
-&lt;p&gt;Le &lt;a href=&quot;http://store.flitetest.com/power-pack-c-fixed-wing-large/&quot;&gt;power pack C&lt;/a&gt; convient pour les &lt;a href=&quot;/les-avions-d-internet/#moyens-modles-puissants&quot;&gt;moyens modèles puissants&lt;/a&gt; et les &lt;a href=&quot;/les-avions-d-internet/#gros-modles&quot;&gt;gros modèles&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Le &lt;a href=&quot;http://store.flitetest.com/power-pack-c-fixed-wing-large/&quot;&gt;power pack C&lt;/a&gt; convient pour les &lt;a href=&quot;/les-avions-d-internet/#ft-moyens-puissants&quot;&gt;moyens modèles puissants&lt;/a&gt; et les &lt;a href=&quot;/les-avions-d-internet/#ft-gros&quot;&gt;gros modèles&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Il contient:&lt;/p&gt;
 
 &lt;dl&gt;
   &lt;dt&gt;moteur &lt;a href=&quot;http://store.flitetest.com/emax-gt2215-1100kv-motor/&quot;&gt;EMax GT2215 (KV=1100)&lt;/a&gt;&lt;/dt&gt;
   &lt;dd&gt;remplaçable par &lt;a href=&quot;https://hobbyking.com/en_us/a28m-brushless-outrunner-1100kv.html&quot;&gt;A28M (KV=1100)&lt;/a&gt; avec des &lt;a href=&quot;https://hobbyking.com/en_us/polymax-3-5mm-gold-connectors-10-pairs-20pc.html&quot;&gt;bullet 3.5 mm&lt;/a&gt; mâles (préférablement &lt;a href=&quot;https://hobbyking.com/en_us/ntm-prop-drive-series-28-30-1100kv-motor.html&quot;&gt;NTM Prop Drive Series 28-30 (KV=1100)&lt;/a&gt; s’il était disponible en Europe).&lt;/dd&gt;
-  &lt;dt&gt;ESC 30 A&lt;/dt&gt;
+  &lt;dt&gt;contrôleur 30 A&lt;/dt&gt;
   &lt;dd&gt;remplaçable par le &lt;a href=&quot;https://hobbyking.com/en_us/turnigy-plush-30amp-speed-controller.html&quot;&gt;Turnigy Plush 30 A&lt;/a&gt; avec des &lt;a href=&quot;https://hobbyking.com/en_us/polymax-3-5mm-gold-connectors-10-pairs-20pc.html&quot;&gt;bullet 3.5 mm&lt;/a&gt; femelles et un &lt;a href=&quot;https://hobbyking.com/en_us/nylon-xt60-connectors-male-female-5-pairs-genuine.html&quot;&gt;XT60&lt;/a&gt; mâle.&lt;/dd&gt;
   &lt;dt&gt;hélice 10x4.7&lt;/dt&gt;
   &lt;dd&gt;&lt;a href=&quot;https://hobbyking.com/en_us/propeller.html?diameter_x=10-10&amp;amp;pitch_y=4.7-4.7&quot;&gt;10x4.7&lt;/a&gt;&lt;/dd&gt;
@@ -104,7 +136,7 @@ Il contient:&lt;/p&gt;
 
 &lt;h2 id=&quot;power-pack-f&quot;&gt;Power pack F&lt;/h2&gt;
 
-&lt;p&gt;Le &lt;a href=&quot;http://store.flitetest.com/power-pack-f/&quot;&gt;power pack F&lt;/a&gt; convient pour les &lt;a href=&quot;/les-avions-d-internet/#petits-modles-intermdiaires&quot;&gt;petits modèles intermédiaires&lt;/a&gt; et les &lt;a href=&quot;/les-avions-d-internet/#petits-modles-puissants&quot;&gt;petits modèles puissants&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Le &lt;a href=&quot;http://store.flitetest.com/power-pack-f/&quot;&gt;power pack F&lt;/a&gt; convient pour les &lt;a href=&quot;/les-avions-d-internet/#ft-petits-intermediaires&quot;&gt;petits modèles intermédiaires&lt;/a&gt; et les &lt;a href=&quot;/les-avions-d-internet/#ft-petits-puissants&quot;&gt;petits modèles puissants&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Il contient:&lt;/p&gt;
 

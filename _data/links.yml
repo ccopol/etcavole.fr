@@ -181,6 +181,9 @@ categories:
           - title: Breizh Modélisme
             url: http://www.breizh-modelisme.com/
             description: Boutique physique dans le Finistère (Plouigneau). Jamais commandé.
+          - title: Studio Sport
+            url: http://www.studiosport.fr/
+            description: Matériel FPV. Jamais commandé.
       - name: Matériaux et outillage
         links:
           - title: Leroy Merlin
@@ -298,3 +301,5 @@ links:
     url: https://hobbyking.com/en_us/qav1806-2300kv-ccw.html
   - title: QAV1806 (KV=2300) CW
     url: https://hobbyking.com/en_us/qav1806-2300kv-cw.html
+  - title: Turnigy D2836/8 (KV=1100)
+    url: https://hobbyking.com/en_us/turnigy-d2836-8-1100kv-brushless-outrunner-motor.html

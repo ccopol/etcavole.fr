@@ -12,6 +12,7 @@ Voici leurs avions, approximativement classés par taille.
 Pour certains modèles, j'ai [retravaillé les plans originaux]({% post_url 2016-12-22-preparer-les-plans-flitetest-pour-impression %}) pour être imprimés en A3.
 
 ### Petits modèles
+{:id="ft-petits"}
 
 Ils sont motorisés par le [power pack A].
 
@@ -30,6 +31,7 @@ Bimoteurs:
 - [FT Mini Cruiser](http://flitetest.com/articles/ft-mini-cruiser-build) (4 décembre 2014, Simple, 81&nbsp;cm)
 
 ### Petits modèles intermédiaires
+{:id="ft-petits-intermediaires"}
 
 Ils sont motorisés par le [power pack A] ou le [power pack F].
 
@@ -39,6 +41,7 @@ Monomoteurs:
 - [FT Mighty Mini Arrow](http://flitetest.com/articles/ft-mighty-mini-arrow-build) (20 janvier 2016, Aile, 74&nbsp;cm)
 
 ### Petits modèles puissants
+{:id="ft-petits-puissants"}
 
 Ils sont motorisés par le [power pack F].
 
@@ -55,6 +58,7 @@ Monomoteurs:
 - [FT DR1 Triplane](http://flitetest.com/articles/ft-dr1-triplane-build) (7 décembre 2016, Historique, triplan, 74&nbsp;cm)
 
 ### Moyens modèles
+{:id="ft-moyens"}
 
 Ils sont motorisés par le [power pack B].
 
@@ -74,6 +78,7 @@ Bimoteurs:
 - [FT Bronco](http://flitetest.com/articles/ft-bronco-build) (28 octobre 2015, Aile haute, 109&nbsp;cm)
 
 ### Moyens modèles puissants
+{:id="ft-moyens-puissants"}
 
 Ils sont motorisés par le [power pack B] ou le [power pack C].
 
@@ -90,6 +95,7 @@ Bimoteurs:
 - [FT Guinea Pig](http://flitetest.com/articles/ft-guinea-build) (18 février 2015, Transport, 147&nbsp;cm)
 
 ### Gros modèles
+{:id="ft-gros"}
 
 Ils sont motorisés par le [power pack C].
 
@@ -111,14 +117,53 @@ Bimoteurs:
 - [FT Sea Duck](http://flitetest.com/articles/ft-sea-duck-build) (16 juin 2016, Super Baloo, 142&nbsp;cm) ([Plan A3 en PDF](flitetest-sea-duck.pdf) (et en [SVG multi-pages](flitetest-sea-duck.svg)))
 - [FT Kraken](http://flitetest.com/articles/kraken-build) (11 juin 2014, Aile, 179&nbsp;cm. Noter que le FT Spear semble en tout point supérieur)
 
-Experimental Airlines
----------------------
-
-@todo
-
 [power pack A]: {{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-a
 [power pack B]: {{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-b
 [power pack C]: {{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-c
 [power pack F]: {{ site.baseurl }}{% post_url 2016-12-20-remplacer-les-power-packs-de-flitetest %}#power-pack-f
+
+Experimental Airlines
+---------------------
+
+### Petits
+{:id="ea-petits"}
+
+Ils sont motorisés par le [Pocket Rocket].
+
+- [Axon](https://www.youtube.com/watch?v=WKh1gjmTKvw&t=456s) (Plate-forme de vol en immersion, aile haute, pusher) et Maxon (150&nbsp;% Axon)
+- [Photon](https://www.youtube.com/playlist?list=PL0F209186D3388842) (Planeur motorisé)
+- [Noob Tube](https://www.youtube.com/watch?v=8xk9ecvgkU0) (12 février 2012, Construction extrêmement simple, vol un peu sportif, 76&nbsp;cm)
+
+### Moyens
+{:id="ea-moyens"}
+
+Ils sont motorisés par le [Workhorse].
+
+- [J.Scott](https://www.youtube.com/watch?v=9E-qaHA5C-I)
+- [Sky Van](https://www.youtube.com/watch?v=CKC6rnTX16E&t=503s)
+
+### Gros
+{:id="ea-gros"}
+
+Ils sont motorisés par le [Powerhouse].
+
+- [Ansley Peace Drone](https://www.youtube.com/playlist?vlist=PLXJD6Heu7H5_a-LfiGeA7YdP_jL2LUfmx)
+
+### Divers
+
+Ils ne sont pas motorisés par l'un des *power plants* de EA.
+
+- [Synapse](https://www.youtube.com/playlist?list=PLXJD6Heu7H5_OcX_yP8DuTH8HaeejyNAW) (2 novembre 2012, Aile avec fuselage, 122&nbsp;cm)
+- [Fugly Jet](https://www.youtube.com/watch?v=H0fG4wBq_80) (EDF, construction simple)
+- [Fast Delta](https://www.youtube.com/watch?v=dDi0Tfj0vIc) (Aile volante plate faite dans une seule feuille de mousse)
+
+Inspirés par Experimental Airlines
+----------------------------------
+
+- [Pitcheron](https://www.youtube.com/watch?v=sJGJqBU9fX8&t=878s) (14 juillet 2016, les ailes entières servent de surfaces de contrôle)
+
+[Pocket Rocket]: {{ site.baseurl }}{% post_url 2017-01-12-les-power-plants-de-experimental-airlines %}#petit
+[Workhorse]: {{ site.baseurl }}{% post_url 2017-01-12-les-power-plants-de-experimental-airlines %}#moyen
+[Powerhouse]: {{ site.baseurl }}{% post_url 2017-01-12-les-power-plants-de-experimental-airlines %}#gros
 
 {% include links_by_title.md %}
