@@ -20,4 +20,6 @@ servos:
     model: d'origine
   - role: volets
     model: d'origine
+todo: []
+tobuy: []
 ---

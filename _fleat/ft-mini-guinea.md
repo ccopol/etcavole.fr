@@ -3,12 +3,7 @@ name: FT Mini Guinea
 origin: "[Plan](http://flitetest.com/articles/ft-mini-guinea-build) publié par Flite Test"
 wingspan: 88
 length: 66
-weight: "@todo"
-thrust: "@todo"
 battery: "[2S, 850&nbsp;mAh]"
-current: "@todo"
-power: "@todo"
-receiver: "@todo"
 escs:
   - role: gauche et droit
     count: 2
@@ -34,9 +29,17 @@ servos:
   - role: porte
     model: "[4.4&nbsp;g]"
 todo:
-  - Acheter équipement et équiper
+  - Equiper
   - Peindre
-  - Mesurer poussée, courant, puissance et poids
-  - Renseigner et publier la fiche dans "La flotte"
+  - Documenter
   - Mettre un train d'atterrissage&nbsp;?
+tobuy:
+  - model: "[QAV1806 (KV=2300) CCW]"
+  - model: "[QAV1806 (KV=2300) CW]"
+  - model: Récepteur
+  - count: 2
+    model: "[Turnigy Plush 10&nbsp;A]"
+  - count: 4
+    model: "[6x3]"
+  - model: roues
 ---

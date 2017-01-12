@@ -11,7 +11,7 @@ current: 27
 power: 310
 receiver: "[6 voies compatible DSM2]"
 esc: "[Turnigy Plush 40&nbsp;A]"
-motor: "[Turnigy D2826/6 (KV=2200)](https://hobbyking.com/en_us/d2826-6-2200kv-outrunner-motor.html)"
+motor: "[Turnigy D2826/6 (KV=2200)]"
 propeller: "[6x4.5]"
 servos:
   - role: profondeur
@@ -22,6 +22,13 @@ servos:
     count: 2
     model: "[9&nbsp;g]"
 todo:
-  - Faire voler
-  - Réessayer avec The Workhorse
+  - "Essayer l'hélice [6x3]"
+  - Régler le piqueur moteur
+  - Réessayer avec [Turnigy D2836/8 (KV=1100)]
+tobuy:
+  - count: 5
+    model: "[6x4.5]"
+  - model: "[Turnigy D2836/8 (KV=1100)]"
+  - count: 2
+    model: "[3S, 2,2&nbsp;Ah]"
 ---

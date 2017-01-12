@@ -21,4 +21,6 @@ servos:
   - role: ailerons
     count: 2
     model: 3.7&nbsp;g
+todo: []
+tobuy: []
 ---

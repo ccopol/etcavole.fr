@@ -17,4 +17,10 @@ servos:
   - role: empennage en V
     count: 2
     model: "[4.4&nbsp;g]"
+todo: []
+tobuy:
+  - count: 4
+    model: "[6x4.5]"
+  - count: 2
+    model: batterie
 ---

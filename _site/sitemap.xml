@@ -19,9 +19,6 @@
 <loc>http://0.0.0.0:4000/</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/achats/</loc>
-</url>
-<url>
 <loc>http://0.0.0.0:4000/batteries/</loc>
 </url>
 <url>
@@ -35,6 +32,9 @@
 </url>
 <url>
 <loc>http://0.0.0.0:4000/liens/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/tobuy/</loc>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/todo/</loc>

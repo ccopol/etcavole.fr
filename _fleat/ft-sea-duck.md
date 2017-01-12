@@ -2,5 +2,7 @@
 name: FT Sea Duck
 origin: "Plan publié par Flite Test"
 todo:
-  - Construire
+  - Tout
+tobuy:
+  - model: Equipement
 ---

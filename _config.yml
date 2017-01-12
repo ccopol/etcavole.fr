@@ -39,3 +39,4 @@ exclude:
   - README.md
   - run_development_cycle.sh
   - _annexes/la-flotte_parts.md
+  - _annexes/tobuy_category.md

@@ -1,10 +1,6 @@
 ---
 name: UMX Extra 300 3D
 origin: "Un [produit](http://www.e-fliterc.com/Products/Default.aspx?ProdID=EFLU1080) E-Flite"
-wingspan: "@todo"
-length: "@todo"
-weight: "@todo"
-thrust: "@todo"
 battery: "[1S, 150&nbsp;mAh]"
 receiver: d'origine
 esc: d'origine
@@ -17,5 +13,8 @@ servos:
     model: d'origine
   - role: ailerons
     model: d'origine
+todo:
+  - Documenter
+tobuy: []
 ---
 Trop vif pour moi pour l'instant.

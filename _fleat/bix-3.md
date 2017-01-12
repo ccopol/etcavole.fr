@@ -15,17 +15,30 @@ motor: "[2630 (KV=1400)](https://hobbyking.com/en_us/hobbykingr-bix3-trainer-155
 propeller: "8x4 (peut-être [cette TGS](https://hobbyking.com/en_us/tgs-precision-sport-propeller-8x4-1pc.html) ou [cette Aerostar](https://hobbyking.com/en_us/apc-style-propeller-8x4-bone-ccw-1pc.html)&nbsp;?)"
 servos:
   - role: profondeur
-    model: "@todo"
+    model: "[9&nbsp;g]"
   - role: dérive
-    model: "@todo"
+    model: "[9&nbsp;g]"
   - role: ailerons
     count: 2
-    model: "@todo"
+    model: "[9&nbsp;g]"
   - role: volets
     count: 2
     model: "[9&nbsp;g]"
 todo:
-  - Changer les servos&nbsp;?
+  - Changer les servos
+  - Mettre un flight controller
+  - Installer la FPV
+tobuy:
+  - count: 4
+    model: "[9&nbsp;g]"
+  - model: "[SPRacingF3 EVO](http://seriouslypro.com/spracingf3evo) (clones disponibles chez [Banggood])"
+  - model: "[XR8](https://www.frsky-rc.com/product/pro.php?pro_id=105)"
+  - model: "[Pièces détachées](https://hobbyking.com/en_us/planes/spare-parts/hobbyking-bix3-trainer-1550mm-parts.html)"
+  - count: 2
+    model: "Hélices de rechange (voir description)"
+  - model: "Adaptateur d'hélice"
+  - model: "[RunCam Swift 2](http://shop.runcam.com/runcam-swift-2/)"
+  - model: "Emetteur audio-video"
 ---
 J'y ai ajouté un mécanisme de largage de parachutes (diamètre du parachute&nbsp;: 70&nbsp;cm, poids de la charge parachutée&nbsp;: 105&nbsp;g).
 

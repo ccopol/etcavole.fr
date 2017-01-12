@@ -3,6 +3,8 @@ title: Les avions d'internet
 ---
 Un inventaire des avions qui m'ont interpelé.
 
+@todo Structure this data. Use structured data to deduplicate links from _fleat to planes of the Internet
+
 Flite Test
 ----------
 

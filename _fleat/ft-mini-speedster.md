@@ -7,10 +7,10 @@ motor: "[QAV1806 (KV=2300) CW]"
 propeller: "[6x3]"
 servos:
   - role: profondeur
-    model: "[4.4&nbsp;g](https://hobbyking.com/en_us/turnigytm-tgy-1440a-analog-servo-v2-0-8kg-0-10sec-4-4g.html)"
+    model: "[4.4&nbsp;g]"
   - role: dérive
-    model: "[4.4&nbsp;g](https://hobbyking.com/en_us/turnigytm-tgy-1440a-analog-servo-v2-0-8kg-0-10sec-4-4g.html)"
+    model: "[4.4&nbsp;g]"
 todo:
-  - Construire
-  - Renseigner et publier la fiche dans "La flotte"
+  - Tout
+tobuy: []
 ---
