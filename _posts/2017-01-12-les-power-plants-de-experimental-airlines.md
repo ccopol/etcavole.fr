@@ -11,7 +11,7 @@ Petit ([Pocket Rocket](https://www.youtube.com/watch?v=Xy8az2-yyiQ))
 
 Pour les [petits modèles de EA](/les-avions-d-internet/#ea-petits).
 
-- moteur&nbsp;: [Turnigy D2826/6 (KV=2200)](https://hobbyking.com/en_us/d2826-6-2200kv-outrunner-motor.html)
+- moteur&nbsp;: [Turnigy D2826/6 (KV=2200)]
 - contrôleur&nbsp;: [Turnigy Plush 40&nbsp;A] avec des [bullet 3.5&nbsp;mm] femelles et un [XT60] mâle
 - hélice&nbsp;: [6x4]
 
@@ -21,7 +21,7 @@ Moyen ([The Workhorse](https://www.youtube.com/watch?v=j17m5AhMmd0))
 
 Pour les modèles de 700&nbsp;g à 1,2&nbsp;kg (et donc les [moyens modèles de EA](/les-avions-d-internet/#ea-moyens)).
 
-- moteur&nbsp;: [Turnigy D2836/8 (KV=1100)](https://hobbyking.com/en_us/turnigy-d2836-8-1100kv-brushless-outrunner-motor.html)
+- moteur&nbsp;: [Turnigy D2836/8 (KV=1100)]
 - contrôleur&nbsp;: [Turnigy Plush 25&nbsp;A] avec des [bullet 3.5&nbsp;mm] femelles et un [XT60] mâle
 - hélice&nbsp;: [10x6], [11x4]
 
