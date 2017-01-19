@@ -8,7 +8,7 @@ tobuy:
       items:
         - épingles à tête triangulaire
         - microscope/endoscope USB
-        -  "[Stylo de coupe (chauffant)](http://www.banggood.com/20CM-DC-5_9V-Electric-Craft-Pen-Styrofoam-Cutter-Hot-Wire-Cutting-Tool-With-Adapter-p-1086536.html)"
+        - "[Stylo de coupe (chauffant)](http://www.banggood.com/20CM-DC-5_9V-Electric-Craft-Pen-Styrofoam-Cutter-Hot-Wire-Cutting-Tool-With-Adapter-p-1086536.html) ou [Hot wire cutter](https://hobbyking.com/en_us/starktex-hw-110-hot-wire-foam-cutter.html)"
         - gros pistolet à colle (en ayant vérifié la taille et la puissance du mien)
         - balance 0-100g
         - roulette au bout d'un manche (outil d'installation de moustiquaire) ("screen splining tool") (pour faire des nervures dans la mousse)
@@ -20,12 +20,16 @@ tobuy:
       categories:
         - name: Radio
           items:
-            - Taranis Plus
-            - récepteurs FrSky X8R et X4R
+            - "[Taranis Plus](https://hobbyking.com/en_us/frsky-2-4ghz-accst-taranis-x9d-x8r-plus-telemetry-radio-system-mode-2-eu-version.html) ou chez https://www.intermodel.fr/, http://www.flashrc.com/, http://www.modelpascher.com/, http://www.breizh-modelisme.com/, http://www.studiosport.fr/"
+            - récepteurs FrSky avec télémétrie [X8R] (https://hobbyking.com/en_us/frsky-x8r-8-16ch-s-bus-accst-telemetry-receiver-w-smart-port.html), X6R, X4R (3 et 4 voies), XSR, etc.
+            - adaptateur pour la mise à jour du firmware des récepteurs? Pour les X et pour d'autres?
+            - récepteurs FrSky sans télémétrie V8R4-II, V8R7-II ou V8FR-II, VD5M?
             - récepteurs compatible ACCST
-            - bouton rotatif 6 positions
+            - bouton rotatif 6 positions (ou pas, vu qu'on peut faire défiler les flight modes avec un trim)
             - "manches Aurora 9 (pour [remplacer les manches d'origine](https://www.youtube.com/watch?v=pSMZNkiLENQ))"
+            - "[manches à effet Hall](https://www.horusrc.com/en/new-frsky-m9-high-sensitivity-hall-sensor-gimbal-for-taranis-x9d-plus.html) (https://www.youtube.com/watch?v=4v3xhhjqOmY)"
             - "[Moufle](https://hobbyking.com/en_us/turnigy-transmitter-muff-black.html)"
+            - "[Pièces détachées](https://www.microtechnics.eu/liste.php?categorie=FrSky&souscat=58)"
           categories:
             - name: Cannibaliser un modules DSMX
               items:
@@ -119,3 +123,24 @@ Attention&nbsp;: la description de {{ model.name }} n'a pas de section "achats".
 - Des roues
 - Des hélices, moteurs et ESCs pur les modèles à venir, et en pièces de rechange pour les modèles existants
 - rallonges de servos de toutes longueurs (ou fil et connecteurs ?)
+- http://www.studiosport.fr/eachine-x73-bnf-a11472.html
+
+
+## Comparaison Taranis Plus
+
+                  https://hobbyking.com(EU)  https://hobbyking.com(GLOBAL)  https://www.intermodel.fr   http://www.flashrc.com  http://www.modelpascher.com   http://www.breizh-modelisme.com   http://www.studiosport.fr
+Pièces détachées  no                          no                            Nombreuses                  no                      Nombreuses                    no                                no
+X9D seul          204                                                       200 (rupture)               235                     no                            no                                219
+X9D + X8R         240                                                       238 (rupture)               no                      no                            no                                269
+X9D + case         no                                                       219                         249 (rupture)           210 (rupture)                 225 (rupture)                     no
+X9D + case + X8R   no                                                       256 (rupture)               no                      no                            no                                no
+X8R                39                         39, 29                        39 (rupture)                40                      39                            39 (rupture)                      39
+X6R                no                         24                            33                          37                      33 (rupture)                  no                                no
+X4R                no                         25, 23                        30                          35                      31                            no                                no
+X4RSB              no                         25, 23                        30                          37                      31                            31                                32
+XSR                25                         25                            29 (rupture)                no                      no                            31                                31
+XM SBUS                                                                     12
+V8R4-II            no                         17                            20                          no                      20 (rupture)                  no                                no
+V8R7-II            no                         19                            24                          no                      26 (rupture)                  no                                no
+V8FR-II            no                         14                            27 (rupture)                no                      28 (rupture)                  no                                28
+VD5M               no                         10                            15                          18                      no                            no                                no

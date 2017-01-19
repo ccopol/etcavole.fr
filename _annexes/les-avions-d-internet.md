@@ -159,13 +159,18 @@ Ils ne sont pas motorisés par l'un des *power plants* de EA.
 - [Fugly Jet](https://www.youtube.com/watch?v=H0fG4wBq_80) (EDF, construction simple)
 - [Fast Delta](https://www.youtube.com/watch?v=dDi0Tfj0vIc) (Aile volante plate faite dans une seule feuille de mousse)
 
+[Pocket Rocket]: {{ site.baseurl }}{% post_url 2017-01-12-les-power-plants-de-experimental-airlines %}#petit
+[Workhorse]: {{ site.baseurl }}{% post_url 2017-01-12-les-power-plants-de-experimental-airlines %}#moyen
+[Powerhouse]: {{ site.baseurl }}{% post_url 2017-01-12-les-power-plants-de-experimental-airlines %}#gros
+
 Inspirés par Experimental Airlines
 ----------------------------------
 
 - [Pitcheron](https://www.youtube.com/watch?v=sJGJqBU9fX8&t=878s) (14 juillet 2016, les ailes entières servent de surfaces de contrôle)
 
-[Pocket Rocket]: {{ site.baseurl }}{% post_url 2017-01-12-les-power-plants-de-experimental-airlines %}#petit
-[Workhorse]: {{ site.baseurl }}{% post_url 2017-01-12-les-power-plants-de-experimental-airlines %}#moyen
-[Powerhouse]: {{ site.baseurl }}{% post_url 2017-01-12-les-power-plants-de-experimental-airlines %}#gros
+Divers
+------
+
+- [Une petite aile delta avec un profil KFm2](https://www.youtube.com/watch?v=lpjzNjn7ynw)
 
 {% include links_by_title.md %}
