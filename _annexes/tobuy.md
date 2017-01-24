@@ -21,7 +21,7 @@ tobuy:
         - name: Radio
           items:
             - "[Taranis Plus](https://hobbyking.com/en_us/frsky-2-4ghz-accst-taranis-x9d-x8r-plus-telemetry-radio-system-mode-2-eu-version.html) ou chez https://www.intermodel.fr/, http://www.flashrc.com/, http://www.modelpascher.com/, http://www.breizh-modelisme.com/, http://www.studiosport.fr/"
-            - récepteurs FrSky avec télémétrie [X8R] (https://hobbyking.com/en_us/frsky-x8r-8-16ch-s-bus-accst-telemetry-receiver-w-smart-port.html), X6R, X4R (3 et 4 voies), XSR, etc.
+            - récepteurs FrSky avec télémétrie [X8R](https://hobbyking.com/en_us/frsky-x8r-8-16ch-s-bus-accst-telemetry-receiver-w-smart-port.html), X6R, X4R (3 et 4 voies), XSR, etc.
             - adaptateur pour la mise à jour du firmware des récepteurs? Pour les X et pour d'autres?
             - récepteurs FrSky sans télémétrie V8R4-II, V8R7-II ou V8FR-II, VD5M?
             - récepteurs compatible ACCST
@@ -144,3 +144,42 @@ V8R4-II            no                         17                            20  
 V8R7-II            no                         19                            24                          no                      26 (rupture)                  no                                no
 V8FR-II            no                         14                            27 (rupture)                no                      28 (rupture)                  no                                28
 VD5M               no                         10                            15                          18                      no                            no                                no
+
+## Prochaine commande HK EU
+
+- https://hobbyking.com/en_us/naze32r6-set-pcb-wire-pins.html
+- https://hobbyking.com/en_us/frsky-x8r-8-16ch-s-bus-accst-telemetry-receiver-w-smart-port.html
+- https://hobbyking.com/en_us/servo-tape-clear-25mm-x-1m.html
+- https://hobbyking.com/en_us/10cm-servo-lead-extention-jr-26awg-10pcs-bag.html
+- https://hobbyking.com/en_us/15cm-servo-lead-extention-jr-26awg-10pcs-bag.html
+- https://hobbyking.com/en_us/15cm-servo-lead-extention-jr-with-hook-26awg-5pcs-bag.html
+- https://hobbyking.com/en_us/30cm-servo-lead-extention-jr-with-hook-26awg-5pcs-bag.html
+- https://hobbyking.com/en_us/45cm-servo-lead-extention-jr-with-hook-26awg-5pcs-bag.html
+- https://hobbyking.com/en_us/60cm-servo-lead-extention-jr-26awg-10pcs-bag.html
+- https://hobbyking.com/en_us/60cm-servo-lead-extention-jr-with-hook-26awg-5pcs-bag.html
+- https://hobbyking.com/en_us/10cm-male-to-male-servo-lead-jr-26awg-10pcs-set.html
+- https://hobbyking.com/en_us/20cm-male-to-male-servo-lead-jr-26awg-10pcs-set.html
+- https://hobbyking.com/en_us/jr-y-servo-lead-30c-length-5pcs-bag.html
+- 2 https://hobbyking.com/en_us/35mm-wheels-5pcs-bag.html
+- 2 https://hobbyking.com/en_us/40mm-wheels-5pcs-bag.html
+- 2 https://hobbyking.com/en_us/45mm-wheels-5pcs-bag.html
+- 2 https://hobbyking.com/en_us/50mm-wheels-5pcs-bag.html
+- 2 https://hobbyking.com/en_us/55mm-wheels-5pcs-bag.html
+- https://hobbyking.com/en_us/qav1806-2300kv-cw.html
+- https://hobbyking.com/en_us/qav1806-2300kv-ccw.html
+- 2 https://hobbyking.com/en_us/turnigy-plush-10amp-9gram-speed-controller.html
+- https://hobbyking.com/en_us/xsr-eu-lbt.html
+- connecteurs pour SBUS (Molex 1.25 ?)
+- https://hobbyking.com/en_us/female-molex-1-25-to-male-jr-servo-extension-1pc.html
+- https://hobbyking.com/en_us/male-molex-1-25-to-female-jr-servo-extension-1pc.html
+- 1 https://hobbyking.com/en_us/ntm-prop-drive-series-28-26a-1200kv-286w-short-shaft-version.html + accessoires
+- 1 https://hobbyking.com/en_us/turnigy-plush-25amp-speed-controller.html
+- 2 https://hobbyking.com/en_us/d2826-6-2200kv-outrunner-motor.html
+- 2 https://hobbyking.com/en_us/turnigy-plush-40amp-speed-controller-w-5a-bec.html
+- 2 https://hobbyking.com/en_us/turnigy-d2836-8-1100kv-brushless-outrunner-motor.html
+- 2 https://hobbyking.com/en_us/turnigy-plush-25amp-speed-controller.html
+
+
+## Prochaine commande HK Global
+
+- https://hobbyking.com/en_us/signal-converter-module-sbus-ppm-pwm-s2pb-with-alarm.html ou https://hobbyking.com/en_us/signal-converter-module-sbus-ppm-pwm-s2pw.html

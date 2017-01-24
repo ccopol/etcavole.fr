@@ -1,5 +1,4 @@
 ---
-display_order: 70
 name: JJRC H12C
 origin: "Un [produit](http://www.jjrctoy.com/en/goods/show-182.html) JJRC"
 battery: "[1S, 700&nbsp;mAh]"
