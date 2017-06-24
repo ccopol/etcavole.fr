@@ -77,6 +77,7 @@ tobuy:
     - name: Divers
       items:
         - ballon-flèche Nerf
+        - http://www.banggood.com/SJCAM-SJ360-2K-Sport-DV-360-Degree-Fisheye-Lens-Panoramic-Action-Camera-Novatek-96660-Chipset-p-1109530.html
 ---
 Achats à faire.
 

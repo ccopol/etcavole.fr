@@ -2,6 +2,8 @@
 title: Mes batteries
 hidden: true
 batteries:
+  "Taranis +":
+    20160623: charge d'entretien
   "A (2S, 850&nbsp;mAh, rouge)":
     20160627: peu utilisée avant
     20160628: décharge
@@ -27,6 +29,7 @@ batteries:
     20161122: [décharge, charge]
     20161127: [décharge, charge]
     20161219: charge d'entretien
+    20170623: charge d'entretien
   "B (2S, 850&nbsp;mAh, rouge)":
     20160628: peu utilisée avant
     20160629: charge d'entretien
@@ -51,6 +54,7 @@ batteries:
     20161109: charge
     20161122: [décharge, charge]
     20161219: charge d'entretien
+    20170623: charge d'entretien
   "C (2S, 180&nbsp;mAh, bleue)":
     20160624: achat, première charge
     20160806: [décharge, charge]
@@ -61,6 +65,9 @@ batteries:
     20161104: décharge
     20161119: charge
     20161219: charge d'entretien
+    20170609: charge d'entretien
+    20170610: décharge partielle
+    20170623: charge
   "D (2S, 180&mAh, bleue)":
     20160624: [achat, première charge]
     20160727: [décharge, charge]
@@ -72,6 +79,9 @@ batteries:
     20161104: décharge
     20161119: charge
     20161219: charge d'entretien
+    20170609: charge d'entretien
+    20170610: décharge partielle
+    20170623: charge
   "E (2S, 900&nbsp;mAh, blanche)":
     20160628: peu utilisée avant
     20160629: [charge d'entretien, décharge partielle, charge]
@@ -89,6 +99,7 @@ batteries:
     20161031: [décharge, charge]
     20171127: [décharge, charge]
     20161219: charge d'entretien
+    20170623: charge d'entretien
   "F (2S, 360&nbsp;mAh, rouge)":
     20160628: peu utilisée avant (achetée par erreur)
     20160629: charge d'entretien
