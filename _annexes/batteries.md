@@ -30,6 +30,7 @@ batteries:
     20161127: [décharge, charge]
     20161219: charge d'entretien
     20170623: charge d'entretien
+    20170624: [décharge, charge]
   "B (2S, 850&nbsp;mAh, rouge)":
     20160628: peu utilisée avant
     20160629: charge d'entretien
@@ -55,6 +56,7 @@ batteries:
     20161122: [décharge, charge]
     20161219: charge d'entretien
     20170623: charge d'entretien
+    20170624: [décharge, charge]
   "C (2S, 180&nbsp;mAh, bleue)":
     20160624: achat, première charge
     20160806: [décharge, charge]
