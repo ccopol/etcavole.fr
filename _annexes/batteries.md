@@ -107,17 +107,20 @@ batteries:
     20160629: charge d'entretien
     20160820: charge d'entretien
     20161219: charge d'entretien
+    20170629: charge d'entretien
   "G (2S, 360&nbsp;mAh, rouge)":
     20160628: peu utilisée avant (achetée par erreur)
     20160629: charge d'entretien
     20160820: [décharge partielle, charge]
     20161219: charge d'entretien
+    20170629: charge d'entretien
   "H (1S, 150&nbsp;mAh)":
     20160624: [achat, première charge]
     20160709: [décharge, charge]
     20160710: [décharge, charge]
     20160807: charge d'entretien
     20161219: charge d'entretien
+    20170629: constat du décès
   "I (1S, 150&nbsp;mAh)":
     20160624: [achat, première charge]
     20160709: [décharge, charge]
@@ -125,6 +128,7 @@ batteries:
     20160807: charge d'entretien
     20161104: [décharge, charge]
     20161219: charge d'entretien
+    20170629: charge d'entretien
   "J (3S, 2.2&nbsp;Ah)":
     20160630: [achat, première charge]
     20160806: charge d'entretien
@@ -135,6 +139,7 @@ batteries:
     20160925: [décharge, charge]
     20160927: décharge
     20160928: charge
+    20170629: charge d'entretien
     20161219: charge d'entretien
   "K (3S, 2.2&nbsp;Ah)":
     20160630: achat
@@ -150,6 +155,7 @@ batteries:
     20160927: décharge
     20160928: charge
     20161219: charge d'entretien
+    20170629: charge d'entretien
 ---
 Gestion de mes batteries.
 
