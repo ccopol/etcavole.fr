@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Mettre à jour une Taranis - Et ça vole ?!</title>
+
+    <meta name="google-site-verification" content="iGR6i8ACfxVaQt2vaSIk6sVsEXdTw-tPeAo4woCwpzo" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Blog technique sur ce qui vole plus ou moins tout seul. Ou pas.">
+    <meta name="author" content="Vincent Jacques">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+
+    <link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:4000/feed.xml" title="Et ça vole ?!" />
+
+    <!-- @todo Search Engine Optimization using meta tags -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1><a href="/">Et ça vole ?!</a></h1>
+        <p>Blog technique sur ce qui vole plus ou moins tout seul. Ou pas.</p>
+        <!-- @todo Add Links to Youtube, RSS, Facebook, Twitter -->
+      </div>
+
+      <h1>Mettre à jour une Taranis</h1>
+      <p>La <a href="https://www.frsky-rc.com/product/taranis-x9d-plus-2/">Taranis X9D Plus</a> utilise beaucoup de logiciel.
+Cet article résume comment installer le logiciel compagnon <a href="http://www.open-tx.org/">OpenTX</a>
+et mettre à jour OpenTX lui-même ainsi que les différents firmwares.</p>
+
+<h2 id="installer-et-configurer-le-compagnon-opentx">Installer et configurer le compagnon OpenTX</h2>
+
+<ul>
+  <li>télécharger l’installeur adapté à votre système <em>et</em> le contenu de la carte SD depuis le <a href="http://www.open-tx.org/2017/05/30/opentx-2.2.0#download-links">site de OpenTX</a>;</li>
+  <li>installer et lancer le compagnon OpenTX</li>
+  <li>ajuster les “settings” :</li>
+</ul>
+
+<div class="text-center">
+  <p><img class="img-fluid" src="opentx-companion-settings-1.png" />
+<img class="img-fluid" src="opentx-companion-settings-2.png" />
+<img class="img-fluid" src="opentx-companion-settings-3.png" /></p>
+</div>
+
+<h2 id="mettre-à-jour-opentx-sur-la-radio">Mettre à jour OpenTX sur la radio</h2>
+
+<ul>
+  <li>télécharger le dernier firmware : menu “File -&gt; Download -&gt; Download firmware”</li>
+  <li>démarrer la Taranis en mode “boot loader” (en maintenant les deux trims horizontaux vers le milieu)</li>
+  <li>la brancher à l’ordinateur via un câble mini-USB</li>
+  <li>“Read models and settings from radio”</li>
+  <li>“File -&gt; Save as…”</li>
+  <li>“Backup radio to file”</li>
+  <li>“Write Firmware to Radio”</li>
+</ul>
+
+<div class="text-center">
+  <p><img class="img-fluid" src="opentx-flash-firmware.png" /></p>
+</div>
+
+<ul>
+  <li>Faire une sauvegarde du contenu du disque “TARANIS SD”</li>
+  <li>Effacer la totalité du disque “TARANIS SD” (et vider la corbeille, car certains systèmes stockent la corbeille sur la carte SD)</li>
+  <li>“Synchonize SD”</li>
+</ul>
+
+<div class="text-center">
+  <p><img class="img-fluid" src="opentx-synchronize-sd.png" /></p>
+</div>
+
+<ul>
+  <li>Quitter le compagnon</li>
+  <li>Détacher les disques “TARANIS” et “TARANIS SD”</li>
+</ul>
+
+<h2 id="mettre-à-jour-le-firmware-du-module-xjt-interne">Mettre à jour le firmware du module XJT interne</h2>
+
+<ul>
+  <li>Télécharger le dernier <a href="https://www.frsky-rc.com/taranis-x9d-plus-2/">Firmware-XJT</a> dans le dossier “FIRMWARE” du disque “TARANIS SD”</li>
+  <li>Démarrer la Taranis normalement</li>
+  <li>Appuyer longuement sur “MENU” puis brièvement sur “PAGE” pour arriver sur “SD CARD”</li>
+</ul>
+
+<div class="text-center">
+  <p><img class="img-fluid" src="taranis-sd-card.bmp" /></p>
+</div>
+
+<ul>
+  <li>Entrer dans le dossier “FIRMWARE”, naviguer jusqu’au fichier à utiliser</li>
+</ul>
+
+<div class="text-center">
+  <p><img class="img-fluid" src="taranis-sd-card-firmware.bmp" /></p>
+</div>
+
+<ul>
+  <li>Appuyer longuement sur “ENT”, puis sélectioner “Flash internal module”</li>
+</ul>
+
+<div class="text-center">
+  <p><img class="img-fluid" src="taranis-firmware-flash.bmp" /></p>
+</div>
+
+<h2 id="mettre-à-jour-le-firmware-des-récepteurs">Mettre à jour le firmware des récepteurs</h2>
+
+<ul>
+  <li>Télécharger les dernier firmwares: <a href="https://www.frsky-rc.com/xsr/">XSR</a>, <a href="https://www.frsky-rc.com/x4r/">X4R</a>, <a href="https://www.frsky-rc.com/x4rsb/">X4RSB</a>, <a href="https://www.frsky-rc.com/x6r/">X6R</a>, <a href="https://www.frsky-rc.com/x8r/">X8R</a></li>
+</ul>
+
+<p>Voir http://www.dronetrest.com/t/how-to-upgrade-your-frsky-receiver-firmware-x8r-x4r-x4r-sb/1667</p>
+
+
+      <p class="text-center">&copy; <a href="mailto:vincent@vincent-jacques.net">Vincent Jacques</a> 2016
+      -
+      <a href="/hidden/">
+      <span class="hidden-sm-up">xs</span>
+      <span class="hidden-md-up hidden-xs-down">sm</span>
+      <span class="hidden-lg-up hidden-sm-down">md</span>
+      <span class="hidden-xl-up hidden-md-down">lg</span>
+      <span class="hidden-lg-down">xl</span>
+      </a>
+      -
+      <a href="https://github.com/jacquev6/etcavole.fr">Code source (Jekyll) de ce site</a>
+      </p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+  </body>
+</html>

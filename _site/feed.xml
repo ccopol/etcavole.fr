@@ -1,4 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://0.0.0.0:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2017-01-25T01:44:03+01:00</updated><id>http://0.0.0.0:4000//</id><title type="html">Et ça vole ?!</title><subtitle>Blog technique sur ce qui vole plus ou moins tout seul. Ou pas.</subtitle><author><name>Vincent Jacques</name><email>vincent@vincent-jacques.net</email></author><entry><title type="html">Les Power Plants de Experimental Airlines</title><link href="http://0.0.0.0:4000/2017/01/12/les-power-plants-de-experimental-airlines" rel="alternate" type="text/html" title="Les Power Plants de Experimental Airlines" /><published>2017-01-12T00:00:00+01:00</published><updated>2017-01-12T00:00:00+01:00</updated><id>http://0.0.0.0:4000/2017/01/12/les-power-plants-de-experimental-airlines</id><content type="html" xml:base="http://0.0.0.0:4000/2017/01/12/les-power-plants-de-experimental-airlines">&lt;p&gt;Ed, de &lt;a href=&quot;https://www.youtube.com/user/ExperimentalAirlines&quot;&gt;Experimental Airlines&lt;/a&gt; propose ces trois ensembles de propulsion pour ses modèles.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.5">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2017-09-11T13:38:46+02:00</updated><id>http://0.0.0.0:4000/</id><title type="html">Et ça vole ?!</title><subtitle>Blog technique sur ce qui vole plus ou moins tout seul. Ou pas.</subtitle><author><name>Vincent Jacques</name><email>vincent@vincent-jacques.net</email></author><entry><title type="html">Mettre à jour une Taranis</title><link href="http://0.0.0.0:4000/2017/09/11/mettre-a-jour-Taranis" rel="alternate" type="text/html" title="Mettre à jour une Taranis" /><published>2017-09-11T00:00:00+02:00</published><updated>2017-09-11T00:00:00+02:00</updated><id>http://0.0.0.0:4000/2017/09/11/mettre-a-jour-Taranis</id><content type="html" xml:base="http://0.0.0.0:4000/2017/09/11/mettre-a-jour-Taranis">&lt;p&gt;La &lt;a href=&quot;https://www.frsky-rc.com/product/taranis-x9d-plus-2/&quot;&gt;Taranis X9D Plus&lt;/a&gt; utilise beaucoup de logiciel.
+Cet article résume comment installer le logiciel compagnon &lt;a href=&quot;http://www.open-tx.org/&quot;&gt;OpenTX&lt;/a&gt;
+et mettre à jour OpenTX lui-même ainsi que les différents firmwares.&lt;/p&gt;
+
+&lt;h2 id=&quot;installer-et-configurer-le-compagnon-opentx&quot;&gt;Installer et configurer le compagnon OpenTX&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;télécharger l’installeur adapté à votre système &lt;em&gt;et&lt;/em&gt; le contenu de la carte SD depuis le &lt;a href=&quot;http://www.open-tx.org/2017/05/30/opentx-2.2.0#download-links&quot;&gt;site de OpenTX&lt;/a&gt;;&lt;/li&gt;
+  &lt;li&gt;installer et lancer le compagnon OpenTX&lt;/li&gt;
+  &lt;li&gt;ajuster les “settings” :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;opentx-companion-settings-1.png&quot; /&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;opentx-companion-settings-2.png&quot; /&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;opentx-companion-settings-3.png&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;mettre-à-jour-opentx-sur-la-radio&quot;&gt;Mettre à jour OpenTX sur la radio&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;télécharger le dernier firmware : menu “File -&amp;gt; Download -&amp;gt; Download firmware”&lt;/li&gt;
+  &lt;li&gt;démarrer la Taranis en mode “boot loader” (en maintenant les deux trims horizontaux vers le milieu)&lt;/li&gt;
+  &lt;li&gt;la brancher à l’ordinateur via un câble mini-USB&lt;/li&gt;
+  &lt;li&gt;“Read models and settings from radio”&lt;/li&gt;
+  &lt;li&gt;“File -&amp;gt; Save as…”&lt;/li&gt;
+  &lt;li&gt;“Backup radio to file”&lt;/li&gt;
+  &lt;li&gt;“Write Firmware to Radio”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;opentx-flash-firmware.png&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Faire une sauvegarde du contenu du disque “TARANIS SD”&lt;/li&gt;
+  &lt;li&gt;Effacer la totalité du disque “TARANIS SD” (et vider la corbeille, car certains systèmes stockent la corbeille sur la carte SD)&lt;/li&gt;
+  &lt;li&gt;“Synchonize SD”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;opentx-synchronize-sd.png&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Quitter le compagnon&lt;/li&gt;
+  &lt;li&gt;Détacher les disques “TARANIS” et “TARANIS SD”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mettre-à-jour-le-firmware-du-module-xjt-interne&quot;&gt;Mettre à jour le firmware du module XJT interne&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Télécharger le dernier &lt;a href=&quot;https://www.frsky-rc.com/taranis-x9d-plus-2/&quot;&gt;Firmware-XJT&lt;/a&gt; dans le dossier “FIRMWARE” du disque “TARANIS SD”&lt;/li&gt;
+  &lt;li&gt;Démarrer la Taranis normalement&lt;/li&gt;
+  &lt;li&gt;Appuyer longuement sur “MENU” puis brièvement sur “PAGE” pour arriver sur “SD CARD”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;taranis-sd-card.bmp&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Entrer dans le dossier “FIRMWARE”, naviguer jusqu’au fichier à utiliser&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;taranis-sd-card-firmware.bmp&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Appuyer longuement sur “ENT”, puis sélectioner “Flash internal module”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;taranis-firmware-flash.bmp&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;mettre-à-jour-le-firmware-des-récepteurs&quot;&gt;Mettre à jour le firmware des récepteurs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Télécharger les dernier firmwares: &lt;a href=&quot;https://www.frsky-rc.com/xsr/&quot;&gt;XSR&lt;/a&gt;, &lt;a href=&quot;https://www.frsky-rc.com/x4r/&quot;&gt;X4R&lt;/a&gt;, &lt;a href=&quot;https://www.frsky-rc.com/x4rsb/&quot;&gt;X4RSB&lt;/a&gt;, &lt;a href=&quot;https://www.frsky-rc.com/x6r/&quot;&gt;X6R&lt;/a&gt;, &lt;a href=&quot;https://www.frsky-rc.com/x8r/&quot;&gt;X8R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Voir http://www.dronetrest.com/t/how-to-upgrade-your-frsky-receiver-firmware-x8r-x4r-x4r-sb/1667&lt;/p&gt;</content><author><name>Vincent Jacques</name><email>vincent@vincent-jacques.net</email></author><summary type="html">La Taranis X9D Plus utilise beaucoup de logiciel. Cet article résume comment installer le logiciel compagnon OpenTX et mettre à jour OpenTX lui-même ainsi que les différents firmwares.</summary></entry><entry><title type="html">Les Power Plants de Experimental Airlines</title><link href="http://0.0.0.0:4000/2017/01/12/les-power-plants-de-experimental-airlines" rel="alternate" type="text/html" title="Les Power Plants de Experimental Airlines" /><published>2017-01-12T00:00:00+01:00</published><updated>2017-01-12T00:00:00+01:00</updated><id>http://0.0.0.0:4000/2017/01/12/les-power-plants-de-experimental-airlines</id><content type="html" xml:base="http://0.0.0.0:4000/2017/01/12/les-power-plants-de-experimental-airlines">&lt;p&gt;Ed, de &lt;a href=&quot;https://www.youtube.com/user/ExperimentalAirlines&quot;&gt;Experimental Airlines&lt;/a&gt; propose ces trois ensembles de propulsion pour ses modèles.&lt;/p&gt;
 
 &lt;p&gt;Il en a mesuré les performances et regroupé les &lt;a href=&quot;https://docs.google.com/spreadsheet/ccc?key=0AtSZzrsraF1-dDJzNGVEMnZnRzNzMkJab2dfRjlxMnc&amp;amp;usp=sharing&amp;amp;pageId=111455250167319531749&quot;&gt;résultats ici&lt;/a&gt;.&lt;/p&gt;
 
@@ -85,9 +168,7 @@ J’ajuste ensuite la position des objets sur chaque page pour qu’ils sont bie
   &lt;dd&gt;Menu “Pages” -&amp;gt; “Export to PDF…”.&lt;/dd&gt;
   &lt;dt&gt;Imprimer&lt;/dt&gt;
   &lt;dd&gt;Dans Acrobat Reader, je fais bien attention à imprimer &lt;em&gt;sans aucune mise à l’échelle&lt;/em&gt;, sur du papier A3.&lt;/dd&gt;
-&lt;/dl&gt;</content><author><name>Vincent Jacques</name><email>vincent@vincent-jacques.net</email></author><summary type="html">Les [plans gratuits Flite Test] sont dans des formats de papier américains.
-Voici comment je retravaille ces plans pour les imprimer en A3.
-Vous trouverez les plans que j’ai retravaillés ici.</summary></entry><entry><title type="html">Remplacer les Power Packs de Flite Test</title><link href="http://0.0.0.0:4000/2016/12/20/remplacer-les-power-packs-de-flitetest" rel="alternate" type="text/html" title="Remplacer les Power Packs de Flite Test" /><published>2016-12-20T00:00:00+01:00</published><updated>2016-12-20T00:00:00+01:00</updated><id>http://0.0.0.0:4000/2016/12/20/remplacer-les-power-packs-de-flitetest</id><content type="html" xml:base="http://0.0.0.0:4000/2016/12/20/remplacer-les-power-packs-de-flitetest">&lt;p&gt;&lt;a href=&quot;http://flitetest.com/&quot;&gt;Flite Test&lt;/a&gt; distribue des &lt;em&gt;&lt;a href=&quot;http://store.flitetest.com/complete-power-pack-kits/&quot;&gt;Power Packs&lt;/a&gt;&lt;/em&gt; contenant une hélice, un moteur, et un contrôleur cohérents, adaptés à certaines tailles d’avion.
+&lt;/dl&gt;</content><author><name>Vincent Jacques</name><email>vincent@vincent-jacques.net</email></author><summary type="html">Les [plans gratuits Flite Test] sont dans des formats de papier américains. Voici comment je retravaille ces plans pour les imprimer en A3. Vous trouverez les plans que j’ai retravaillés ici.</summary></entry><entry><title type="html">Remplacer les Power Packs de Flite Test</title><link href="http://0.0.0.0:4000/2016/12/20/remplacer-les-power-packs-de-flitetest" rel="alternate" type="text/html" title="Remplacer les Power Packs de Flite Test" /><published>2016-12-20T00:00:00+01:00</published><updated>2016-12-20T00:00:00+01:00</updated><id>http://0.0.0.0:4000/2016/12/20/remplacer-les-power-packs-de-flitetest</id><content type="html" xml:base="http://0.0.0.0:4000/2016/12/20/remplacer-les-power-packs-de-flitetest">&lt;p&gt;&lt;a href=&quot;http://flitetest.com/&quot;&gt;Flite Test&lt;/a&gt; distribue des &lt;em&gt;&lt;a href=&quot;http://store.flitetest.com/complete-power-pack-kits/&quot;&gt;Power Packs&lt;/a&gt;&lt;/em&gt; contenant une hélice, un moteur, et un contrôleur cohérents, adaptés à certaines tailles d’avion.
 Comme ces &lt;em&gt;Power Packs&lt;/em&gt; ne sont pas (encore ?) distribués en Europe dans le cadre de leur partenariat avec &lt;a href=&quot;https://www.graupner.com/Models/Flite-Test/&quot;&gt;Graupner&lt;/a&gt;, voici une analyse de leur contenu et des alternatives distribuées par &lt;a href=&quot;http://hobbyking.com/&quot;&gt;Hobby King&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;power-pack-a&quot;&gt;Power pack A&lt;/h2&gt;
@@ -147,5 +228,4 @@ Il contient:&lt;/p&gt;
   &lt;dd&gt;remplaçable par le &lt;a href=&quot;https://hobbyking.com/en_us/turnigy-plush-12amp-2a-bec-besc.html&quot;&gt;Turnigy Plush 12 A&lt;/a&gt; avec des &lt;a href=&quot;https://hobbyking.com/en_us/2mm-gold-connectors-10-pairs-20pc-1.html&quot;&gt;bullet 2 mm&lt;/a&gt; femelles et un &lt;a href=&quot;https://hobbyking.com/en_us/xt30-power-connectors-for-30a-continuous-applications-esc-side-5pcs.html&quot;&gt;XT30&lt;/a&gt; (ou &lt;a href=&quot;https://hobbyking.com/en_us/jst-female-2-pin-connector-set-10pcs-set.html&quot;&gt;JST&lt;/a&gt;) mâle.&lt;/dd&gt;
   &lt;dt&gt;hélice 6x4.5&lt;/dt&gt;
   &lt;dd&gt;ce moteur est en fait adapté aux hélices des tailles suivantes: &lt;a href=&quot;https://hobbyking.com/en_us/gemfan-propeller-5x3-black-cw-ccw-2pcs.html&quot;&gt;5x3&lt;/a&gt;, &lt;a href=&quot;https://hobbyking.com/en_us/gemfan-propeller-5x4-black-cw-ccw-2pcs.html&quot;&gt;5x4&lt;/a&gt;, &lt;a href=&quot;https://hobbyking.com/en_us/gemfan-propeller-5x4-5-black-cw-ccw-2pcs-1.html&quot;&gt;5x4.5&lt;/a&gt;, &lt;a href=&quot;https://hobbyking.com/en_us/tgs-precision-folding-propeller-5x5-black-1pc.html&quot;&gt;5x5&lt;/a&gt;, &lt;a href=&quot;https://hobbyking.com/en_us/gemfan-6030-grp-nylon-propellers-cw-ccw-set-black.html&quot;&gt;6x3&lt;/a&gt;, &lt;a href=&quot;https://hobbyking.com/en_us/apc-style-propeller-6x4-grey-ccw-2pcs.html&quot;&gt;6x4&lt;/a&gt; et &lt;a href=&quot;https://hobbyking.com/en_us/gemfan-multirotor-crp-propeller-6x4-5-black-cw-ccw-2pcs.html&quot;&gt;6x4.5&lt;/a&gt;.&lt;/dd&gt;
-&lt;/dl&gt;</content><author><name>Vincent Jacques</name><email>vincent@vincent-jacques.net</email></author><summary type="html">[Flite Test] distribue des Power Packs contenant une hélice, un moteur, et un contrôleur cohérents, adaptés à certaines tailles d’avion.
-Comme ces Power Packs ne sont pas (encore ?) distribués en Europe dans le cadre de leur partenariat avec Graupner, voici une analyse de leur contenu et des alternatives distribuées par [Hobby King].</summary></entry></feed>
+&lt;/dl&gt;</content><author><name>Vincent Jacques</name><email>vincent@vincent-jacques.net</email></author><summary type="html">[Flite Test] distribue des Power Packs contenant une hélice, un moteur, et un contrôleur cohérents, adaptés à certaines tailles d’avion. Comme ces Power Packs ne sont pas (encore ?) distribués en Europe dans le cadre de leur partenariat avec Graupner, voici une analyse de leur contenu et des alternatives distribuées par [Hobby King].</summary></entry></feed>
