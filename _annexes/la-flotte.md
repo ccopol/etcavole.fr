@@ -3,7 +3,7 @@ title: La flotte
 ---
 Mes modèles.
 
-Pour référence, voici le [fichier de configuration](etcavole_taranis_plus.eepe) pour ma [Taranis Plus](http://www.frsky-rc.com/product/pro.php?pro_id=137).
+Pour référence, voici le [fichier de configuration OpenTX](etcavole_taranis_plus.otx) pour ma [Taranis Plus](https://www.frsky-rc.com/product/taranis-x9d-plus-2/).
 
 <div class="row">
 {% assign models = site.fleat | where_exp: "model", "model.display_order" | sort: 'display_order' %}
