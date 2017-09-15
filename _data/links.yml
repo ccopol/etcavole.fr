@@ -218,6 +218,27 @@ categories:
           - title: Conrad
             url: http://www.conrad.fr/
             description: Jamais commandé.
+          - title: Electronique Diffusion
+            url: http://www.electronique-diffusion.fr/
+            description: Jamais commandé
+          - title: GoTronic
+            url: http://www.gotronic.fr/
+            description: Boutique physique dans les Ardennes. Jamais commandé
+          - title: Saint Quentin Radio
+            url: http://www.stquentin-radio.com/
+            description: Boutique physique à Paris. Jamais commandé
+          - title: Vdram
+            url: http://www.vdram.com/
+            description: Jamais commandé
+          - title: CompElectronic
+            url: https://compelectronic.fr/
+            description: Jamais commandé
+          - title: Lextronic
+            url: http://www.lextronic.fr/
+            description: Jamais commandé
+          - title: JMB Electronique
+            url: http://jmb-electronique.com/
+            description: Jamais commandé
       - name: Générales
         links:
           - title: Amazon
