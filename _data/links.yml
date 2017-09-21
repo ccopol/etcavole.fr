@@ -101,6 +101,9 @@ categories:
       - title: AirCommandRockets
         url: https://www.youtube.com/channel/UCqOcPn8fVKqyxz9K0H6LQpg
         description: Fusées à eau.
+      - title: Dean's Benchtop
+        url: https://www.et.byu.edu/~wheeler/benchtop/index.php
+        description: Fusées à eau.
   - name: Théorie
     links:
       - title: Model Airplane Propellers
@@ -238,6 +241,9 @@ categories:
             description: Jamais commandé
           - title: JMB Electronique
             url: http://jmb-electronique.com/
+            description: Jamais commandé
+          - title: Reichelt
+            url: https://www.reichelt.com/
             description: Jamais commandé
       - name: Générales
         links:

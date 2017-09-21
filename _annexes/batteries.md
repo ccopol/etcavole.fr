@@ -4,6 +4,7 @@ hidden: true
 batteries:
   "Taranis +":
     20160623: charge d'entretien
+    20170915: charge d'entretien
   "A (2S, 850&nbsp;mAh, rouge)":
     20160627: peu utilisée avant
     20160628: décharge
