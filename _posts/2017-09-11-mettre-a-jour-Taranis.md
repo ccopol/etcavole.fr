@@ -72,4 +72,6 @@ Mettre à jour le firmware des récepteurs
 
 - Télécharger les dernier firmwares: [XSR](https://www.frsky-rc.com/xsr/), [X4R](https://www.frsky-rc.com/x4r/), [X4RSB](https://www.frsky-rc.com/x4rsb/), [X6R](https://www.frsky-rc.com/x6r/), [X8R](https://www.frsky-rc.com/x8r/)
 
-Voir http://www.dronetrest.com/t/how-to-upgrade-your-frsky-receiver-firmware-x8r-x4r-x4r-sb/1667
+XSR: https://www.youtube.com/watch?v=H6Uk8uuLHXw
+XM: https://www.youtube.com/watch?v=eYVk2lWPJxU
+X8R, X6R, X4R(-SB): http://www.dronetrest.com/t/how-to-upgrade-your-frsky-receiver-firmware-x8r-x4r-x4r-sb/1667
