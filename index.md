@@ -1,8 +1,6 @@
 ---
+title: Bienvenue
 ---
-
-Bienvenue
-=========
 
 Bonjour, je suis Vincent Jacques, et sur *Et ça vole&nbsp;?!* je vous parle d'aéromodélisme, de drones, de fusées à eau, d'avions en papier...
 De tout ce qui vole sans personne à bord&nbsp;!
