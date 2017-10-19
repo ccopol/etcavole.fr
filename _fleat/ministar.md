@@ -9,7 +9,7 @@ thrust: 165
 battery: "[2S, 850&nbsp;mAh]"
 current: 7
 power: 50
-receiver: "4 voies OrangeRx, très similaire à ce [4 voies compatible DSM2](http://www.guixmodel.fr/modelisme/accessoires/radiocommande/recepteur/r%C3%A9cepteur-4-voies-compatible-dsm2-detail)"
+receiver: "[X4R](https://www.frsky-rc.com/product/x4r/)"
 esc: "[10&nbsp;A](http://www.guixmodel.fr/modelisme/accessoires/moteurs-et-controleurs/controleur/controleurs-ipeak-10a-detail)"
 motor: "[iBM 2204-14 (KV=1600)](http://www.guixmodel.fr/modelisme/accessoires/moteurs-et-controleurs/moteurs-brushless/moteur-brushless-ibm2204-detail)"
 propeller: "[8x4.3](http://www.guixmodel.fr/modelisme/accessoires/helices/helices-slow-fly-indoor/helice-8-43-detail)"
