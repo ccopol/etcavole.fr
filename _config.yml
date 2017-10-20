@@ -30,7 +30,7 @@ defaults:
       permalink: /:year/:month/:day/:title
 
 collections:
-  annexes:
+  appendixes:
     output: true
     permalink: /:path/
   fleat:
@@ -38,5 +38,5 @@ collections:
 exclude:
   - README.md
   - run_development_cycle.sh
-  - _annexes/la-flotte_parts.md
-  - _annexes/tobuy_category.md
+  - _appendixes/la-flotte_parts.md
+  - _appendixes/tobuy_category.md

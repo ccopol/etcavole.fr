@@ -39,7 +39,7 @@ tobuy:
           items:
             - "convertisseur audio-video USB (Pour faire du [FPV sur Android]( https://www.youtube.com/watch?v=GCYtWUJlTrg))"
             - "[convertisseur audio-video HDMI](https://www.amazon.fr/dp/B01I1HWP9W)"
-    - name: Consommables (@todo Separate building materials (foams, tapes, glues, plastic cards, wood, etc.) in an annexe)
+    - name: Consommables (@todo Separate building materials (foams, tapes, glues, plastic cards, wood, etc.) in an appendix)
       items:
         - "[élastiques 12 cm * 6 mm](http://www.guixmodel.fr/modelisme/accessoires/divers/elastique-6x120mm-detail) (trop cher pour grosses quantités)"
         - prop savers de toutes tailles (chez Guix ou PB)

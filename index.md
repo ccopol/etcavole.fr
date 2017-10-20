@@ -23,10 +23,10 @@ Les annexes
 ===========
 
 <dl class="row">
-{% for annexe in site.annexes %}
-{% unless annexe.hidden %}
-<dt class="col-sm-3">[{{ annexe.title }}]({{ annexe.url }})</dt>
-<dd class="col-sm-9">{{ annexe.excerpt }}</dd>
+{% for appendix in site.appendixes %}
+{% unless appendix.hidden %}
+<dt class="col-sm-3">[{{ appendix.title }}]({{ appendix.url }})</dt>
+<dd class="col-sm-9">{{ appendix.excerpt }}</dd>
 {% endunless %}
 {% endfor %}
 </dl>
