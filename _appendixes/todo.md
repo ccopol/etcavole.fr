@@ -13,10 +13,7 @@ Attention&nbsp;: la description de {{ model.name }} n'a pas de section "à faire
 En général
 ----------
 
-- investiguer le vol en immersion&nbsp;: trouver le bon écran ou les bonnes lunettes et choisir des émetteurs/récepteurs. Ne pas oublier les options comme utiliser l'écran du télephonne ou d'un ordinateur ou du NexDock.
 - appliquer [cette vidéo](https://www.youtube.com/watch?v=AnDQGFhsHjs) pour avoir les voies 1-16 sur le SBUS et 9-16 sur le PWM avec un X8R. Ou pas. Essayer sans avant.
-- flash firmwares: https://www.youtube.com/watch?v=Z8D8dAriMi0
-- XSR and Naze32: https://www.youtube.com/watch?v=ZSyAP3Zlezs
 
 Sur les modèles
 ---------------

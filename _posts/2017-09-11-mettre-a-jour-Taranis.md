@@ -70,6 +70,8 @@ Mettre à jour le firmware du module XJT interne
 Mettre à jour le firmware des récepteurs
 ----------------------------------------
 
+<!-- @todo Write this section for XM and X series receivers. -->
+
 - Télécharger les dernier firmwares: [XSR](https://www.frsky-rc.com/xsr/), [X4R](https://www.frsky-rc.com/x4r/), [X4RSB](https://www.frsky-rc.com/x4rsb/), [X6R](https://www.frsky-rc.com/x6r/), [X8R](https://www.frsky-rc.com/x8r/)
 
 XSR: https://www.youtube.com/watch?v=H6Uk8uuLHXw
